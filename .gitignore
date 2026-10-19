@@ -1,0 +1,8 @@
+dist/
+node_modules/
+screenshots/
+.DS_Store
+.env
+*.pem
+*.key
+BUSINESS.md

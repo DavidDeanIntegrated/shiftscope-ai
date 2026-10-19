@@ -1,0 +1,13 @@
+{
+  "lastVerified": "2026-10-18",
+  "criteria": [
+    {"key":"interruptions","name":"Survives interruptions","short":"Pause, resume, and get pulled away mid-encounter without losing the note.","long":"Can you pause mid-HPI for a code, walk away, and come back to the right patient's draft? We test pause/resume, accidental stops, and how the tool behaves when an encounter is split across several conversations."},
+    {"key":"multi_patient","name":"Multi-patient workflow","short":"Several open encounters at once, tied to the right patient.","long":"EM physicians carry many open charts. We check whether the tool can hold multiple concurrent encounters, link each one to the right patient (ideally from the track board), and handle continuation-of-care and re-evaluation notes."},
+    {"key":"noisy_environment","name":"Noisy, crowded rooms","short":"Hallway beds, monitors, overhead pages, interpreters.","long":"Hallway beds, alarms, overhead pages, family members and interpreters. We check speaker separation and whether bystander speech leaks into the note."},
+    {"key":"trauma_resus","name":"Trauma & resus fit","short":"Usable when hands are full and time stamps matter.","long":"Does it help or get in the way in a resuscitation? We look at hands-free use, time-stamp capture, critical care time, procedure notes, and whether it's safe to ignore when you're busy."},
+    {"key":"ehr_fit","name":"EHR integration","short":"Epic, Oracle Health (Cerner), MEDITECH, Picis and others.","long":"Native integration with the EHRs EDs actually run (Epic ASAP, Oracle Health FirstNet, MEDITECH Expanse, Picis), versus copy-paste. We note write-back depth (which note sections it fills) and whether your IT team has to sign off."},
+    {"key":"privacy_baa","name":"HIPAA, BAA & data use","short":"Signed BAA, data retention, model training on PHI.","long":"Is a Business Associate Agreement available on the plan you'd actually buy? How long are audio and transcripts kept? Is PHI used to train models? We report only what the vendor states publicly or in writing."},
+    {"key":"pricing_value","name":"Pricing & value","short":"Public price, what's paywalled, resident discounts.","long":"Public list price, what's locked behind higher tiers (EHR push, coding, integrations), and whether there are free or trainee tiers. If pricing isn't public, we say so."},
+    {"key":"evidence","name":"Published evidence & regulatory status","short":"Peer-reviewed studies, FDA status, ED-specific data.","long":"Peer-reviewed studies (especially ED populations and prospective or randomized designs), FDA authorization where it applies, and how much of the evidence is vendor-funded. Marketing statistics are labeled as vendor-reported."}
+  ]
+}

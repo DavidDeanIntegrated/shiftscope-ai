@@ -1,0 +1,12 @@
+{
+  "name": "shiftscope-ai",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "build:gh": "BASE=/shiftscope-ai/ SITE_URL=https://daviddeanintegrated.github.io node build.mjs",
+    "serve": "node build.mjs && python3 -m http.server 4321 --directory dist",
+    "check": "node scripts/check-links.mjs"
+  }
+}
