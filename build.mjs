@@ -45,7 +45,7 @@ ${SITE_URL ? `<link rel="canonical" href="${SITE_URL}${u(pathName)}">` : ""}
   <p class="small">Sponsors never affect verdicts. Sponsored placements are always labeled. <a href="${u("methodology/")}#ads">Ad &amp; conflict-of-interest policy</a> · Data last verified ${esc(site.lastVerified)} · © ${new Date().getFullYear()} ShiftScope AI</p>
 </div></footer>
 <script src="${u("assets/app.js")}" defer></script>
-</body></html>`;
+${body.includes("data-beehiiv-form") ? `<script type="text/javascript" async src="https://subscribe-forms.beehiiv.com/attribution.js"></script>\n` : ""}</body></html>`;
 }
 
 function card(t) {
@@ -61,14 +61,13 @@ function card(t) {
 </article>`;
 }
 
-const KIT = { action: "https://app.kit.com/forms/10065866/subscriptions", uid: "829af4ea55", share: "https://shiftscope-ai.kit.com/829af4ea55" };
-const newsletterForm = (id = "nl") => `<form class="newsletter" id="${id}" data-kit="true" action="${KIT.action}" method="post" data-uid="${KIT.uid}">
-  <label for="${id}-email">Get the weekly <em>What's new in ED AI</em> email</label>
-  <div class="row"><input id="${id}-email" name="email_address" type="email" placeholder="you@hospital.org" autocomplete="email" aria-label="Email address" required><button type="submit">Subscribe</button></div>
-  <p class="privacy-note">Double opt-in. Unsubscribe anytime.</p>
-  <p class="form-msg" aria-live="polite"></p>
-  <p class="small kit-fallback">Trouble with the form? <a href="${KIT.share}" rel="noopener" target="_blank">Subscribe on Kit ↗</a></p>
-</form>`;
+const BEEHIIV = { formId: "69e3632a-48aa-459e-bee8-d9a2b7b9db23", subscribe: "https://shiftscope-ai.beehiiv.com/subscribe" };
+const newsletterForm = (id = "nl") => `<div class="newsletter" id="${id}">
+  <p class="nl-title">Get the weekly <em>What's new in ED AI</em> email</p>
+  <div class="beehiiv-embed"><script async src="https://subscribe-forms.beehiiv.com/v3/loader.js" data-beehiiv-form="${BEEHIIV.formId}"></script></div>
+  <p class="privacy-note">Unsubscribe anytime.</p>
+  <p class="small nl-fallback">Form not showing? <a href="${BEEHIIV.subscribe}" rel="noopener" target="_blank">Subscribe on beehiiv ↗</a></p>
+</div>`;
 
 const sponsoredSlot = `<aside class="sponsored-slot" aria-label="Sponsored placement">
   <span class="sponsored-label">Sponsored</span>
