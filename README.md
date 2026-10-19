@@ -19,7 +19,7 @@ Needs Node 18+ only. There are no npm dependencies.
 - The build fails if any tool has a non-null `physician_review` or `ratings`. That guard stops placeholder scores from shipping. When a real review exists, change the guard and the template together.
 
 ## Deploy (not done yet, needs the owner)
-- **GitHub Pages:** push the repo, then set Settings → Pages → Source: GitHub Actions. `.github/workflows/deploy.yml` builds with `BASE=/shiftscope-ai/` for https://daviddeanintegrated.github.io/shiftscope-ai/.
+- **GitHub Pages:** `.github/workflows/deploy.yml` builds with `BASE=/shiftscope-ai/` and publishes `dist/` to the `gh-pages` branch. Pages source: Deploy from a branch → `gh-pages` / root. Live at https://daviddeanintegrated.github.io/shiftscope-ai/.
 - **Cloudflare Pages or Netlify:** build command `node build.mjs`, output directory `dist`.
 - Set `SITE_URL=https://yourdomain` at build time to get canonical URLs and an absolute sitemap.
 

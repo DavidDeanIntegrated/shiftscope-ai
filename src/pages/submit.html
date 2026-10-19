@@ -1,0 +1,16 @@
+<h1>Submit a tool or correction</h1>
+<p class="lede">Know an AI tool emergency clinicians should know about, or spot an error in a listing? Tell us.</p>
+<form class="stub-form" data-stub="true" onsubmit="return false">
+  <p class="stub-note" role="note">Demo form: not connected yet, so nothing is sent or stored.</p>
+  <label>Tool name <input name="tool" required></label>
+  <label>Website <input name="url" type="url" placeholder="https://"></label>
+  <label>Category
+    <select name="category"><option>AI scribes &amp; documentation</option><option>Clinical Q&amp;A &amp; decision support</option><option>ECG &amp; cardiac AI</option><option>Imaging triage</option><option>POCUS AI</option><option>Sepsis, triage &amp; early warning</option><option>Discharge &amp; patient follow-up</option><option>Other</option></select></label>
+  <label>I am a…
+    <select name="role"><option>Emergency clinician</option><option>Vendor / employee of the vendor</option><option>Other</option></select></label>
+  <label>What should we know? (sources welcome) <textarea name="notes" rows="5"></textarea></label>
+  <label>Your email (optional) <input name="email" type="email"></label>
+  <p class="small">Vendors: submitting a tool is free and doesn't affect its review. Please don't include patient information.</p>
+  <button type="submit">Submit</button>
+  <p class="form-msg" aria-live="polite"></p>
+</form>
