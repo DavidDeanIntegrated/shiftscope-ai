@@ -67,3 +67,4 @@ td.pending{color:var(--muted);font-style:italic}
 .small{font-size:.85rem;color:var(--muted)}
 .site-footer{margin-top:56px;background:#0f1c2a;color:#c8d3de;padding:28px 0;font-size:.9rem}.site-footer a{color:#fff}
 .disclaimer{max-width:85ch}
+.privacy-note{font-size:.82rem;color:var(--muted);margin:.5em 0 0}.form-msg.err{color:#b42318}.kit-fallback{margin:.3em 0 0}
