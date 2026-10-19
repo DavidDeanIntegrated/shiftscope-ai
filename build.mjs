@@ -114,7 +114,7 @@ function toolPage(t) {
   const crit = site.criteria.map(cr => `<tr><th scope="row">${esc(cr.name)}</th><td class="pending">${esc(t.ed_criteria[cr.key] || "Not yet evaluated")}</td></tr>`).join("");
   const related = tools.filter(x => x.category === t.category && x.slug !== t.slug).slice(0, 3);
   return layout({
-    title: `${t.name} for emergency medicine | ShiftScope AI`,
+    title: `${/emergency medicine/i.test(t.name) ? t.name : `${t.name} for emergency medicine`} | ShiftScope AI`,
     desc: `${t.name} by ${t.company}: ${t.tagline}`,
     pathName: `tools/${t.slug}/`,
     body: `<div class="wrap tool">
@@ -154,7 +154,7 @@ ${related.length ? `<section><h2>More in ${esc(c.name)}</h2><div class="grid">${
 function catPage(c) {
   const ts = tools.filter(t => t.category === c.slug);
   return layout({
-    title: `${c.name} for emergency medicine | ShiftScope AI`, desc: c.blurb, pathName: `categories/${c.slug}/`,
+    title: `${/emergency medicine/i.test(c.name) ? c.name : `${c.name} for emergency medicine`} | ShiftScope AI`, desc: c.blurb, pathName: `categories/${c.slug}/`,
     body: `<div class="wrap"><nav class="crumbs"><a href="${u("")}">Directory</a> › <a href="${u("categories/")}">Categories</a> › <span>${esc(c.name)}</span></nav>
 <h1>${esc(c.name)}</h1><p class="lede">${esc(c.blurb)}</p><p class="status">${ts.length} tools</p>
 <div class="grid">${ts.map(card).join("")}</div></div>`
