@@ -72,14 +72,19 @@
       "Dedicated Emergency Department specialty output",
       "Published ED recording best practices from Microsoft"
     ],
-    "studies": [],
+    "studies": [
+      {
+        "title": "O'Kane et al., controlled single-speaker evaluation of 8 ambient voice / speech-to-text systems using narrated surgical case reports (J Med Syst, accepted Sept 2026; not ED-specific). Share of transcripts with at least one clinically significant error: Heidi 54%, Dragon Medical One 68%, best system 30% (tested Dragon Medical One transcription, not Dragon Copilot's ambient notes)",
+        "url": "https://kclpure.kcl.ac.uk/portal/en/publications/a-controlled-single-speaker-evaluation-of-ambient-voice-technolog/"
+      }
+    ],
     "sources": [
       "https://support.microsoft.com/en-us/dragon-copilot/physicians/ai-specialty-mapping",
       "https://support.microsoft.com/en-us/dragon-copilot/physicians/current/emergency-department-recording-best-practices",
       "https://learn.microsoft.com/en-us/industry/healthcare/dragon-copilot/whats-new/3-5-1"
     ],
     "notes": "",
-    "last_verified": "2026-10-18",
+    "last_verified": "2026-10-19",
     "ed_criteria": {
       "interruptions": "Not yet evaluated",
       "multi_patient": "Not yet evaluated",
@@ -161,7 +166,12 @@
     "hipaa_baa": "Vendor states HIPAA compliance (per third-party summary of vendor security claims); BAA terms: Unknown",
     "fda_status": "None found (documentation tool)",
     "ed_specific_vendor_claims": [],
-    "studies": [],
+    "studies": [
+      {
+        "title": "O'Kane et al., controlled single-speaker evaluation of 8 ambient voice / speech-to-text systems using narrated surgical case reports (J Med Syst, accepted Sept 2026; not ED-specific). Share of transcripts with at least one clinically significant error: Heidi 54%, Dragon Medical One 68%, best system 30%",
+        "url": "https://kclpure.kcl.ac.uk/portal/en/publications/a-controlled-single-speaker-evaluation-of-ambient-voice-technolog/"
+      }
+    ],
     "sources": [
       "https://support.heidihealth.com/en/articles/8885030-heidi-s-pricing-plans-cost-and-features",
       "https://www.heidihealth.com/en-us/pricing",
@@ -170,7 +180,7 @@
       "https://www.heidihealth.com/legal/referral-program-terms-and-conditions"
     ],
     "notes": "Heidi runs a public referral program (USD $25 to $50 per paid referral, capped at 10 per month). Any ShiftScope referral link must be disclosed.",
-    "last_verified": "2026-10-18",
+    "last_verified": "2026-10-19",
     "ed_criteria": {
       "interruptions": "Not yet evaluated",
       "multi_patient": "Not yet evaluated",
@@ -198,7 +208,8 @@
     "features": [
       "Ambient note generation and dictation",
       "Reads chart data and writes generated note content back to the EHR",
-      "Suki Inside listed for Epic Haiku emergency notes (per third-party integration review)"
+      "Suki Inside listed for Epic Haiku emergency notes (per third-party integration review)",
+      "Ask: voice or typed clinical questions that pull chart data plus UpToDate Expert AI answers, across Epic, Oracle Health, athenahealth and MEDITECH (launched Oct 8, 2026)"
     ],
     "ehr_integrations": [
       "Epic",
@@ -215,10 +226,12 @@
       "https://www.suki.ai/ehr-integrations/",
       "https://ehr.meditech.com/vendors/suki",
       "https://www.healthcareitnews.com/news/vendor-notebook-epic-and-microsoft-showcase-copiloted-ai-capabilities-cerner-adds-suki-ai",
-      "https://clunic.com/integrations/suki-epic"
+      "https://clunic.com/integrations/suki-epic",
+      "https://www.suki.ai/press-releases/suki-launches-ask-accelerating-complex-clinical-decision-support-powered-by-wolters-kluwer-up-to-date-expert-ai/",
+      "https://www.suki.ai/press-releases/suki-secures-90-million-to-build-and-scale-ai-agents-for-health-systems-and-health-tech-companies/"
     ],
-    "notes": "",
-    "last_verified": "2026-10-18",
+    "notes": "Raised a $90M Series E on Oct 13, 2026. Vendor-reported: serves 450+ healthcare organizations.",
+    "last_verified": "2026-10-19",
     "ed_criteria": {
       "interruptions": "Not yet evaluated",
       "multi_patient": "Not yet evaluated",
@@ -246,7 +259,8 @@
     "features": [
       "Ambient documentation and dictation",
       "Coding suggestions",
-      "Nabla Connect plug-and-play integration; Core API for deeper integration"
+      "Nabla Connect plug-and-play integration; Core API for deeper integration",
+      "'Clinical questions' panel beside the note, powered by OpenEvidence; Nabla sends de-identified encounter context (demographics, visit diagnosis, medications, the note) and says no PHI is involved (announced Oct 15, 2026)"
     ],
     "ehr_integrations": [
       "Epic",
@@ -264,10 +278,11 @@
     "sources": [
       "https://www.nabla.com/ehr",
       "https://help.nabla.com/en/categories/137474",
-      "https://docs.nabla.com/guides/ehr-integration"
+      "https://docs.nabla.com/guides/ehr-integration",
+      "https://healthtechnologynet.com/2026/10/15/nabla-integrates-with-openevidence-to-deliver-clinical-evidence-at-the-point-of-care/"
     ],
-    "notes": "",
-    "last_verified": "2026-10-18",
+    "notes": "Vendor-reported: over 125,000 clinicians across 190 health systems and provider groups, 35+ languages (Oct 2026 release).",
+    "last_verified": "2026-10-19",
     "ed_criteria": {
       "interruptions": "Not yet evaluated",
       "multi_patient": "Not yet evaluated",
@@ -570,7 +585,8 @@
       "Society partnerships listed include ACEP"
     ],
     "ehr_integrations": [
-      "No EHR integration stated"
+      "Embedded in Epic at some health systems (e.g. Northwestern Medicine, with single sign-on from Oct 8, 2026)",
+      "Available inside the Nabla ambient assistant via a 'Clinical questions' panel (Oct 2026)"
     ],
     "pricing": "Free for verified US healthcare professionals",
     "hipaa_baa": "HIPAA compliant since April 2025; PHI handled under OpenEvidence's BAA for US covered entities; SOC 2 Type 2 listed on Trust Center",
@@ -580,16 +596,23 @@
       {
         "title": "2026 review in npj Digital Medicine noting the limited published evidence on OpenEvidence",
         "url": "https://doi.org/10.1038/s41746-026-03077-4"
+      },
+      {
+        "title": "Clinician Use of an AI-Enabled Clinical Information Platform (JAMA, Oct 15, 2026; usage study of 271M queries from 952,008 NPI-verified US clinicians; data supplied by OpenEvidence and 3 of 7 authors list OpenEvidence affiliations; measures use, not accuracy or outcomes)",
+        "url": "https://doi.org/10.1001/jama.2026.21868"
       }
     ],
     "sources": [
       "https://www.openevidence.com/",
       "https://www.openevidence.com/user-guide/models",
       "https://www.openevidence.com/announcements/openevidence-is-now-hipaa-compliant",
-      "https://trust.openevidence.com/"
+      "https://trust.openevidence.com/",
+      "https://news.nm.org/openevidence-and-northwestern-medicine-launch-collaboration-to-integrate-clinical-evidence-into-the-ehr/",
+      "https://www.healthcareitnews.com/news/northwestern-medicine-integrates-openevidence-epic",
+      "https://physicianintheloop.org/posts/2026-10-16/"
     ],
-    "notes": "",
-    "last_verified": "2026-10-18",
+    "notes": "Per the Oct 2026 JAMA usage study, 88% of emergency physicians' queries were about topics outside emergency medicine (the highest of any specialty). On Oct 15, 2026 OpenEvidence, Doximity and Pathway Medical told a federal court they had reached a settlement in principle in their lawsuit; terms were not disclosed.",
+    "last_verified": "2026-10-19",
     "ed_criteria": {
       "interruptions": "Not yet evaluated",
       "multi_patient": "Not yet evaluated",
@@ -673,10 +696,11 @@
     "sources": [
       "https://www.doximity.com/gpt/",
       "https://support.doximity.com/hc/en-us/articles/55381817186195-Doximity-Ask-FAQs",
-      "https://blog.doximity.com/articles/Doximity-GPT-Faster-and-Peer-Reviewed"
+      "https://blog.doximity.com/articles/Doximity-GPT-Faster-and-Peer-Reviewed",
+      "https://news.bloomberglaw.com/tech-and-telecom-law/doximity-settles-remaining-openevidence-ai-prompt-hack-dispute"
     ],
-    "notes": "",
-    "last_verified": "2026-10-18",
+    "notes": "On Oct 15, 2026 Doximity and OpenEvidence filed a joint notice of a settlement in principle in OpenEvidence's Massachusetts federal lawsuit; terms were not disclosed (Bloomberg Law).",
+    "last_verified": "2026-10-19",
     "ed_criteria": {
       "interruptions": "Not yet evaluated",
       "multi_patient": "Not yet evaluated",
@@ -706,7 +730,7 @@
       "AI drug-dosing guidance added in 2026 (per news coverage)"
     ],
     "ehr_integrations": [
-      "Institutional deployments; specific EHR integration for Expert AI: Unknown"
+      "Institutional deployments; available inside Suki's Ask feature (first product integration of the UpToDate Expert AI API, Oct 2026) across Epic, Oracle Health, athenahealth and MEDITECH"
     ],
     "pricing": "Via institutional and individual UpToDate subscriptions; Not publicly stated",
     "hipaa_baa": "Unknown",
@@ -716,10 +740,11 @@
     "sources": [
       "https://www.wolterskluwer.com/en/news/uptodate-expert-ai-genai-clinical-decision-support",
       "https://www.wolterskluwer.com/en/solutions/uptodate/uptodate-expert-ai",
-      "https://www.fiercehealthcare.com/ai-and-machine-learning/wolters-kluwer-rolls-out-gen-ai-version-uptodate-clinical-decision-support"
+      "https://www.fiercehealthcare.com/ai-and-machine-learning/wolters-kluwer-rolls-out-gen-ai-version-uptodate-clinical-decision-support",
+      "https://www.wolterskluwer.com/en/news/suki-ask-clinical-decision-support-uptodate-expert-ai"
     ],
     "notes": "Launched September 2025; reported at about 2,500 US hospitals and health systems by August 2026.",
-    "last_verified": "2026-10-18",
+    "last_verified": "2026-10-19",
     "ed_criteria": {
       "interruptions": "Not yet evaluated",
       "multi_patient": "Not yet evaluated",
@@ -1820,5 +1845,100 @@
     "affiliate_link": null,
     "free_tier": false,
     "fda_authorized": false
+  },
+  {
+    "slug": "thinksono-guidance",
+    "name": "ThinkSono Guidance",
+    "company": "ThinkSono",
+    "url": "https://thinksono.com",
+    "category": "pocus-ai",
+    "tagline": "AI guidance that walks non-ultrasound-trained staff through a lower-extremity DVT compression scan on a handheld Clarius probe, for remote review.",
+    "features": [
+      "Real-time probe-positioning and compression guidance for a standardized lower-extremity DVT exam",
+      "Records compression cine-loops and sends them to a dashboard for remote review by a qualified clinician",
+      "Does not interpret images (acquisition guidance only, per FDA indications)",
+      "Works with compatible Clarius handheld scanners"
+    ],
+    "ehr_integrations": [
+      "Unknown"
+    ],
+    "pricing": "Not publicly stated",
+    "hipaa_baa": "Unknown",
+    "fda_status": "FDA 510(k) K260338 (July 15, 2026), Class II, product code QJU (acquisition guidance)",
+    "ed_specific_vendor_claims": [],
+    "studies": [
+      {
+        "title": "Vendor-reported multicenter study (1,691 patients, 24 sites): non-experts got diagnostic-quality images in 87.1% of exams; 92.9% sensitivity, 97.1% specificity (as summarized by HLTH; full paper not yet linked)",
+        "url": "https://hlth.com/insights/news/thinksono-receives-fda-510-k-clearance-for-ai-powered-dvt-ultrasound-guidance-software"
+      }
+    ],
+    "sources": [
+      "https://www.accessdata.fda.gov/cdrh_docs/pdf26/K260338.pdf",
+      "https://www.accessnewswire.com/newsroom/en/healthcare-and-pharmaceutical/thinksono-receives-fda-clearance-for-ultrasound-ai-software-for-blood-1197433",
+      "https://hlth.com/insights/news/thinksono-receives-fda-510-k-clearance-for-ai-powered-dvt-ultrasound-guidance-software"
+    ],
+    "notes": "Interesting for after-hours EDs without vascular ultrasound: the scan can be done by trained non-sonographers and read remotely. US commercial availability was still being prepared as of the July 2026 announcement.",
+    "last_verified": "2026-10-19",
+    "ed_criteria": {
+      "interruptions": "Not yet evaluated",
+      "multi_patient": "Not yet evaluated",
+      "noisy_environment": "Not yet evaluated",
+      "trauma_resus": "Not yet evaluated",
+      "ehr_fit": "Not yet evaluated",
+      "privacy_baa": "Not yet evaluated",
+      "pricing_value": "Not yet evaluated",
+      "evidence": "Not yet evaluated"
+    },
+    "physician_review": null,
+    "ratings": null,
+    "sponsored": false,
+    "affiliate_link": null,
+    "free_tier": false,
+    "fda_authorized": true
+  },
+  {
+    "slug": "a2z-abdo-triage",
+    "name": "a2z-Abdo-Triage",
+    "company": "a2z Radiology AI",
+    "url": "https://a2zradiology.ai/",
+    "category": "imaging-triage",
+    "tagline": "Abdomen-pelvis CT triage that flags suspected acute findings such as appendicitis, obstructing stones and solid-organ trauma for prioritized reading.",
+    "features": [
+      "Flags suspected positives on abdominopelvic CT, with or without IV contrast, in adults 22 and older",
+      "Sept 2026 clearance covers 10 findings: obstructing ureteral stone, hydroureter, retroperitoneal hematoma, large-volume ascites, acute appendicitis, abscess, hemoperitoneum or complex free fluid, and splenic, hepatic and renal traumatic injury",
+      "Company says its suite now covers 17 abdominal findings across two FDA-cleared devices",
+      "Works alongside the radiologist's read; does not replace interpretation"
+    ],
+    "ehr_integrations": [
+      "PACS / radiology worklist; EHR specifics Unknown"
+    ],
+    "pricing": "Not publicly stated",
+    "hipaa_baa": "Unknown",
+    "fda_status": "FDA 510(k) K260906 (Sept 16, 2026), Class II, product codes QAS/QFM, with a Predetermined Change Control Plan; earlier clearance for 7 findings in late 2025 (per Radiology Business)",
+    "ed_specific_vendor_claims": [],
+    "studies": [],
+    "sources": [
+      "https://www.accessdata.fda.gov/cdrh_docs/pdf26/K260906.pdf",
+      "https://radiologybusiness.com/topics/artificial-intelligence/fda-clears-radiology-ai-triage-tool-check-10-additional-findings-ct-scans",
+      "https://a2zradiology.ai/"
+    ],
+    "notes": "Bought by health systems or radiology groups, not individual clinicians.",
+    "last_verified": "2026-10-19",
+    "ed_criteria": {
+      "interruptions": "Not yet evaluated",
+      "multi_patient": "Not yet evaluated",
+      "noisy_environment": "Not yet evaluated",
+      "trauma_resus": "Not yet evaluated",
+      "ehr_fit": "Not yet evaluated",
+      "privacy_baa": "Not yet evaluated",
+      "pricing_value": "Not yet evaluated",
+      "evidence": "Not yet evaluated"
+    },
+    "physician_review": null,
+    "ratings": null,
+    "sponsored": false,
+    "affiliate_link": null,
+    "free_tier": false,
+    "fda_authorized": true
   }
 ]
