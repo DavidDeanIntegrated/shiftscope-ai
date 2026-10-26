@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://daviddeanintegrated.github.io/shiftscope-ai/sitemap.xml
