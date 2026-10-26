@@ -609,10 +609,11 @@
       "https://trust.openevidence.com/",
       "https://news.nm.org/openevidence-and-northwestern-medicine-launch-collaboration-to-integrate-clinical-evidence-into-the-ehr/",
       "https://www.healthcareitnews.com/news/northwestern-medicine-integrates-openevidence-epic",
-      "https://physicianintheloop.org/posts/2026-10-16/"
+      "https://physicianintheloop.org/posts/2026-10-16/",
+      "https://www.fiercehealthcare.com/ai-and-machine-learning/openevidence-doximity-reach-settlement-contentious-ai-lawsuit"
     ],
-    "notes": "Per the Oct 2026 JAMA usage study, 88% of emergency physicians' queries were about topics outside emergency medicine (the highest of any specialty). On Oct 15, 2026 OpenEvidence, Doximity and Pathway Medical told a federal court they had reached a settlement in principle in their lawsuit; terms were not disclosed.",
-    "last_verified": "2026-10-19",
+    "notes": "Per the Oct 2026 JAMA usage study, 88% of emergency physicians' queries were about topics outside emergency medicine (the highest of any specialty). The OpenEvidence v. Doximity lawsuit settled: a settlement in principle was filed Oct 15, 2026 and the case was dismissed with prejudice on Oct 16, with each side paying its own costs; other terms were not disclosed.",
+    "last_verified": "2026-10-26",
     "ed_criteria": {
       "interruptions": "Not yet evaluated",
       "multi_patient": "Not yet evaluated",
@@ -683,7 +684,8 @@
     "tagline": "Free clinical AI assistant for verified US clinicians, built into the Doximity app.",
     "features": [
       "Clinical questions answered in the Doximity app (vendor calls it a 'workflow assistant')",
-      "Connected with Doximity Scribe and Dialer"
+      "Connected with Doximity Scribe and Dialer",
+      "UpToDate answers (from UpToDate's 13,000 topics) shown alongside Ask's AI answer for clinicians at health systems licensing both, rolling out 'in the coming weeks' from Oct 20, 2026"
     ],
     "ehr_integrations": [
       "No EHR integration stated"
@@ -697,10 +699,12 @@
       "https://www.doximity.com/gpt/",
       "https://support.doximity.com/hc/en-us/articles/55381817186195-Doximity-Ask-FAQs",
       "https://blog.doximity.com/articles/Doximity-GPT-Faster-and-Peer-Reviewed",
-      "https://news.bloomberglaw.com/tech-and-telecom-law/doximity-settles-remaining-openevidence-ai-prompt-hack-dispute"
+      "https://news.bloomberglaw.com/tech-and-telecom-law/doximity-settles-remaining-openevidence-ai-prompt-hack-dispute",
+      "https://investors.doximity.com/news/news-details/2026/Doximity-and-Wolters-Kluwer-Sign-Partnership-to-Bring-UpToDate-to-Doximity-Ask/default.aspx",
+      "https://www.fiercehealthcare.com/ai-and-machine-learning/openevidence-doximity-reach-settlement-contentious-ai-lawsuit"
     ],
-    "notes": "On Oct 15, 2026 Doximity and OpenEvidence filed a joint notice of a settlement in principle in OpenEvidence's Massachusetts federal lawsuit; terms were not disclosed (Bloomberg Law).",
-    "last_verified": "2026-10-19",
+    "notes": "The OpenEvidence v. Doximity lawsuit was dismissed with prejudice on Oct 16, 2026 after a settlement in principle; each side bears its own costs and other terms were not disclosed (Fierce Healthcare). On Oct 20, 2026 Doximity and Wolters Kluwer announced UpToDate content inside Ask.",
+    "last_verified": "2026-10-26",
     "ed_criteria": {
       "interruptions": "Not yet evaluated",
       "multi_patient": "Not yet evaluated",
@@ -730,7 +734,8 @@
       "AI drug-dosing guidance added in 2026 (per news coverage)"
     ],
     "ehr_integrations": [
-      "Institutional deployments; available inside Suki's Ask feature (first product integration of the UpToDate Expert AI API, Oct 2026) across Epic, Oracle Health, athenahealth and MEDITECH"
+      "Institutional deployments; available inside Suki's Ask feature (first product integration of the UpToDate Expert AI API, Oct 2026) across Epic, Oracle Health, athenahealth and MEDITECH",
+      "Coming to Doximity Ask for clinicians at health systems using both Doximity and UpToDate (announced Oct 20, 2026; rollout in the coming weeks)"
     ],
     "pricing": "Via institutional and individual UpToDate subscriptions; Not publicly stated",
     "hipaa_baa": "Unknown",
@@ -741,10 +746,11 @@
       "https://www.wolterskluwer.com/en/news/uptodate-expert-ai-genai-clinical-decision-support",
       "https://www.wolterskluwer.com/en/solutions/uptodate/uptodate-expert-ai",
       "https://www.fiercehealthcare.com/ai-and-machine-learning/wolters-kluwer-rolls-out-gen-ai-version-uptodate-clinical-decision-support",
-      "https://www.wolterskluwer.com/en/news/suki-ask-clinical-decision-support-uptodate-expert-ai"
+      "https://www.wolterskluwer.com/en/news/suki-ask-clinical-decision-support-uptodate-expert-ai",
+      "https://www.wolterskluwer.com/en/news/doximity-wolters-kluwer-uptodate-doximity-ask"
     ],
     "notes": "Launched September 2025; reported at about 2,500 US hospitals and health systems by August 2026.",
-    "last_verified": "2026-10-19",
+    "last_verified": "2026-10-26",
     "ed_criteria": {
       "interruptions": "Not yet evaluated",
       "multi_patient": "Not yet evaluated",
@@ -1393,23 +1399,25 @@
       "AI-assisted EF workflow",
       "Trio: auto-labeling, auto-grading, auto-guidance",
       "Us2.ai partnership for automated echo analysis",
-      "Kosmos EDU training app"
+      "Kosmos EDU training app",
+      "Torso NXT probe (US availability from Oct 19, 2026): smaller, wired with field-replaceable cable, IP67; keeps Auto EF, AI FAST, Auto Doppler and Bladder AI"
     ],
     "ehr_integrations": [
       "Unknown"
     ],
     "pricing": "Not publicly stated",
     "hipaa_baa": "Not applicable (not a regulated medical device function as described by vendor)",
-    "fda_status": "Kosmos FDA 510(k) K233826 (Aug 29, 2024). Older user guide said some AI features relied on FDA's COVID-era enforcement policy; check current status per feature",
+    "fda_status": "Kosmos FDA 510(k) K233826 (Aug 29, 2024). Older user guide said some AI features relied on FDA's COVID-era enforcement policy; check current status per feature. Torso NXT ships under the existing Torso-One clearance K212100 (per vendor)",
     "ed_specific_vendor_claims": [],
     "studies": [],
     "sources": [
       "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K233826",
       "https://echonous.com/specialty/emergency-medicine/",
-      "https://www.businesswire.com/news/home/20210805005796/en/EchoNous-Partners-with-Us2.ai-for-Machine-Learning-enabled-Analysis-of-Heart-Scans"
+      "https://www.businesswire.com/news/home/20210805005796/en/EchoNous-Partners-with-Us2.ai-for-Machine-Learning-enabled-Analysis-of-Heart-Scans",
+      "https://echonous.com/echonous-unveils-torso-nxt/"
     ],
     "notes": "EchoNous has sponsored EM ultrasound education podcasts (Ultrasound GEL, 2024).",
-    "last_verified": "2026-10-18",
+    "last_verified": "2026-10-26",
     "ed_criteria": {
       "interruptions": "Not yet evaluated",
       "multi_patient": "Not yet evaluated",
@@ -1622,7 +1630,8 @@
     "category": "sepsis-triage-early-warning",
     "tagline": "Proprietary sepsis prediction model built into Epic and widely deployed; independent validations have been mixed.",
     "features": [
-      "Sepsis risk score inside Epic"
+      "Sepsis risk score inside Epic",
+      "Separate Pediatric Sepsis Early Detection (PSED) model, developed at Nationwide Children's and offered to Epic customers; each organization validates and configures it locally (per Epic)"
     ],
     "ehr_integrations": [
       "Epic (native)"
@@ -1635,13 +1644,18 @@
       {
         "title": "Wong et al., External Validation of a Widely Implemented Proprietary Sepsis Prediction Model in Hospitalized Patients (JAMA Intern Med, 2021): hospitalization-level AUC 0.63",
         "url": "https://doi.org/10.1001/jamainternmed.2021.2626"
+      },
+      {
+        "title": "Evaluation of a Commercial Pediatric Sepsis Early Detection Alert in the Emergency Department (JAMA Pediatrics, 2026): 166,943 pediatric ED encounters at 8 New York sites; 36% sensitivity for Phoenix-criteria sepsis within 24 h (30% before onset), PPV 3%, NPV >99%; lower sensitivity in Black children (22%), children under 5 and non-tertiary EDs. Epic disputes the comparison criteria",
+        "url": "https://doi.org/10.1001/jamapediatrics.2026.4575"
       }
     ],
     "sources": [
-      "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2781307"
+      "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2781307",
+      "https://www.techtarget.com/searchhealthit/news/366651804/Epics-pediatric-sepsis-model-misses-two-thirds-of-ED-cases"
     ],
     "notes": "Included as a benchmark because most EM physicians already see its alerts.",
-    "last_verified": "2026-10-18",
+    "last_verified": "2026-10-26",
     "ed_criteria": {
       "interruptions": "Not yet evaluated",
       "multi_patient": "Not yet evaluated",
@@ -1924,6 +1938,107 @@
     ],
     "notes": "Bought by health systems or radiology groups, not individual clinicians.",
     "last_verified": "2026-10-19",
+    "ed_criteria": {
+      "interruptions": "Not yet evaluated",
+      "multi_patient": "Not yet evaluated",
+      "noisy_environment": "Not yet evaluated",
+      "trauma_resus": "Not yet evaluated",
+      "ehr_fit": "Not yet evaluated",
+      "privacy_baa": "Not yet evaluated",
+      "pricing_value": "Not yet evaluated",
+      "evidence": "Not yet evaluated"
+    },
+    "physician_review": null,
+    "ratings": null,
+    "sponsored": false,
+    "affiliate_link": null,
+    "free_tier": false,
+    "fda_authorized": true
+  },
+  {
+    "slug": "rivanna-accuro-xv",
+    "name": "Accuro XV with BoneEnhance",
+    "company": "RIVANNA (Rivanna Medical)",
+    "url": "https://rivannamedical.com",
+    "category": "pocus-ai",
+    "tagline": "Portable 3D musculoskeletal ultrasound that automates wide-field acquisition; new machine-learning module labels bone and soft tissue during review.",
+    "features": [
+      "Conformable 3D probe automates large field-of-view B-mode acquisition after initial positioning (per vendor)",
+      "BoneEnhance segments bone and surrounding tissue with color overlays on the B-mode image and a 3D orientation indicator",
+      "Original image data stay visible under the overlays",
+      "Fracture/injury detection module is investigational, not FDA-cleared and not for sale (per vendor, Oct 2026)"
+    ],
+    "ehr_integrations": [
+      "Unknown"
+    ],
+    "pricing": "Not publicly stated",
+    "hipaa_baa": "Unknown",
+    "fda_status": "FDA 510(k) K262093 (Accuro XV with BoneEnhance; decision Oct 20, 2026; product code IYO). Base Accuro XV cleared under K254021 (April 2026, per vendor)",
+    "ed_specific_vendor_claims": [
+      "Vendor positions Accuro XV as a fracture-care layer at ED triage for low-severity extremity injuries, aiming to reduce X-ray referrals (stated goal, not a cleared claim)",
+      "Development supported by BARDA (contract 75A50121C00035)"
+    ],
+    "studies": [
+      {
+        "title": "Vendor-reported BoneEnhance validation: 5-site independent test set of 233 volumes (69,900 images, 173 subjects); per-volume label accuracy 95.1% to 100%. Measures anatomical labeling, not diagnostic accuracy",
+        "url": "https://rivannamedical.com/fda-grants-510k-clearance-for-boneenhance-the-first-machine-learning-layer-on-rivannas-accuro-xv-platform/"
+      },
+      {
+        "title": "Journal of Emergency Medicine study of 205 patients cited by the vendor: operators with 1 hour of training acquired wrist and ankle images rated adequate for interpretation in >90% of scans (automated acquisition, not BoneEnhance)",
+        "url": "https://doi.org/10.1016/j.jemermed.2025.11.011"
+      }
+    ],
+    "sources": [
+      "https://rivannamedical.com/fda-grants-510k-clearance-for-boneenhance-the-first-machine-learning-layer-on-rivannas-accuro-xv-platform/",
+      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K262093"
+    ],
+    "notes": "Today it labels anatomy; it does not detect fractures. Worth watching for the ED because the injury-detection module in development targets extremity fracture triage.",
+    "last_verified": "2026-10-26",
+    "ed_criteria": {
+      "interruptions": "Not yet evaluated",
+      "multi_patient": "Not yet evaluated",
+      "noisy_environment": "Not yet evaluated",
+      "trauma_resus": "Not yet evaluated",
+      "ehr_fit": "Not yet evaluated",
+      "privacy_baa": "Not yet evaluated",
+      "pricing_value": "Not yet evaluated",
+      "evidence": "Not yet evaluated"
+    },
+    "physician_review": null,
+    "ratings": null,
+    "sponsored": false,
+    "affiliate_link": null,
+    "free_tier": false,
+    "fda_authorized": true
+  },
+  {
+    "slug": "ge-vscan-air-lung-guidance",
+    "name": "Vscan Air with Lung Guidance",
+    "company": "GE HealthCare",
+    "url": "https://vscanair-support.gehealthcare.com/support/solutions/articles/47001299215-lung-guidance",
+    "category": "pocus-ai",
+    "tagline": "AI acquisition guidance on the Vscan Air handheld that walks users through a standard 8-zone lung ultrasound protocol.",
+    "features": [
+      "Detects lung landmarks to guide the user to a reference point in each of 8 zones (upper/lower anterior, upper/lower lateral, both sides)",
+      "Auto-captures 5-second clips per zone with an optional chime",
+      "Does not detect or annotate pathology; images must be interpreted by a qualified physician",
+      "Indicated for patients older than 21; a paid add-on in the Vscan Air app, not available in Guest mode"
+    ],
+    "ehr_integrations": [
+      "Unknown"
+    ],
+    "pricing": "Not publicly stated",
+    "hipaa_baa": "Unknown",
+    "fda_status": "FDA 510(k) K261042 (Oct 2, 2026), product code QJU (AI-guided image acquisition)",
+    "ed_specific_vendor_claims": [],
+    "studies": [],
+    "sources": [
+      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261042",
+      "https://vscanair-support.gehealthcare.com/support/solutions/articles/47001299215-lung-guidance",
+      "https://www.aihealthcarenow.com/fda-cleared-ai/radiology/image-acquisition-and-or-optimization-guided-by-artificial-intelligence-qju/"
+    ],
+    "notes": "Acquisition guidance only. Potentially useful for less-experienced scanners doing lung ultrasound for dyspnea or pulmonary edema, but it won't read B-lines for you.",
+    "last_verified": "2026-10-26",
     "ed_criteria": {
       "interruptions": "Not yet evaluated",
       "multi_patient": "Not yet evaluated",
