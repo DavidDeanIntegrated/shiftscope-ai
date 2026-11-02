@@ -21,17 +21,19 @@
     "ed_specific_vendor_claims": [
       "Built with Epic's Workshop program for the ED (Jan 2025)",
       "Clinicians select patients from the department Track Board and start recording in Haiku",
-      "Named early ED users: Deaconess, Emory, Johns Hopkins, Mayo Clinic, UChicago Medicine (vendor announcement)"
+      "Named early ED users: Deaconess, Emory, Johns Hopkins, Mayo Clinic, UChicago Medicine (vendor announcement)",
+      "UT System enterprise-wide agreement (Oct 8, 2026) via UT REAL Health AI; the 2025 UT pilot included outpatient, inpatient and emergency department settings (vendor announcement)"
     ],
     "studies": [],
     "sources": [
       "https://www.abridge.com/blog/inside-for-emergency-medicine-announcement",
       "https://www.fiercehealthcare.com/ai-and-machine-learning/abridge-offers-generative-ai-tool-emergency-medicine-emory-healthcare-johns",
       "https://nwhed.org/wp-content/uploads/ASAP_QSG_Abridge-Inside-for-Emergency-Department.pdf",
-      "https://support.abridge.com/hc/en-us/articles/30235172323731-Send-an-Abridge-Note-Into-Epic"
+      "https://support.abridge.com/hc/en-us/articles/30235172323731-Send-an-Abridge-Note-Into-Epic",
+      "https://www.abridge.com/press-release/ut-health-enterprise-wide"
     ],
     "notes": "",
-    "last_verified": "2026-10-18",
+    "last_verified": "2026-11-02",
     "ed_criteria": {
       "interruptions": "Not yet evaluated",
       "multi_patient": "Not yet evaluated",
@@ -586,6 +588,7 @@
     ],
     "ehr_integrations": [
       "Embedded in Epic at some health systems (e.g. Northwestern Medicine, with single sign-on from Oct 8, 2026)",
+      "NYU Langone Health: embedded in its Epic EHR with patient context ('Patient Aware Clinical Intelligence'), announced Oct 29, 2026, across hospitals, ambulatory sites and Family Health Centers",
       "Available inside the Nabla ambient assistant via a 'Clinical questions' panel (Oct 2026)"
     ],
     "pricing": "Free for verified US healthcare professionals",
@@ -610,10 +613,11 @@
       "https://news.nm.org/openevidence-and-northwestern-medicine-launch-collaboration-to-integrate-clinical-evidence-into-the-ehr/",
       "https://www.healthcareitnews.com/news/northwestern-medicine-integrates-openevidence-epic",
       "https://physicianintheloop.org/posts/2026-10-16/",
-      "https://www.fiercehealthcare.com/ai-and-machine-learning/openevidence-doximity-reach-settlement-contentious-ai-lawsuit"
+      "https://www.fiercehealthcare.com/ai-and-machine-learning/openevidence-doximity-reach-settlement-contentious-ai-lawsuit",
+      "https://www.openevidence.com/announcements/openevidence-and-nyu-langone-health-partner-to-bring-patient-aware-intelligence-to-12-million-visits-in-new-york-city"
     ],
     "notes": "Per the Oct 2026 JAMA usage study, 88% of emergency physicians' queries were about topics outside emergency medicine (the highest of any specialty). The OpenEvidence v. Doximity lawsuit settled: a settlement in principle was filed Oct 15, 2026 and the case was dismissed with prejudice on Oct 16, with each side paying its own costs; other terms were not disclosed.",
-    "last_verified": "2026-10-26",
+    "last_verified": "2026-11-02",
     "ed_criteria": {
       "interruptions": "Not yet evaluated",
       "multi_patient": "Not yet evaluated",
@@ -685,7 +689,8 @@
     "features": [
       "Clinical questions answered in the Doximity app (vendor calls it a 'workflow assistant')",
       "Connected with Doximity Scribe and Dialer",
-      "UpToDate answers (from UpToDate's 13,000 topics) shown alongside Ask's AI answer for clinicians at health systems licensing both, rolling out 'in the coming weeks' from Oct 20, 2026"
+      "UpToDate answers (from UpToDate's 13,000 topics) shown alongside Ask's AI answer for clinicians at health systems licensing both, rolling out 'in the coming weeks' from Oct 20, 2026",
+      "DoseCheck (launched Oct 29, 2026): free deterministic check of each AI-generated medication dose against Doximity's structured drug database (RxIndex, based on FDA labeling, guidelines and literature); verified doses get a green badge linking to the source"
     ],
     "ehr_integrations": [
       "No EHR integration stated"
@@ -701,10 +706,12 @@
       "https://blog.doximity.com/articles/Doximity-GPT-Faster-and-Peer-Reviewed",
       "https://news.bloomberglaw.com/tech-and-telecom-law/doximity-settles-remaining-openevidence-ai-prompt-hack-dispute",
       "https://investors.doximity.com/news/news-details/2026/Doximity-and-Wolters-Kluwer-Sign-Partnership-to-Bring-UpToDate-to-Doximity-Ask/default.aspx",
-      "https://www.fiercehealthcare.com/ai-and-machine-learning/openevidence-doximity-reach-settlement-contentious-ai-lawsuit"
+      "https://www.fiercehealthcare.com/ai-and-machine-learning/openevidence-doximity-reach-settlement-contentious-ai-lawsuit",
+      "https://blog.doximity.com/articles/over-2-of-llm-doses-are-wrong-some-can-be-lethal",
+      "https://www.healthcaredive.com/news/popular-ai-models-get-medication-doses-wrong-some-dangerously-doximity/873207/"
     ],
-    "notes": "The OpenEvidence v. Doximity lawsuit was dismissed with prejudice on Oct 16, 2026 after a settlement in principle; each side bears its own costs and other terms were not disclosed (Fierce Healthcare). On Oct 20, 2026 Doximity and Wolters Kluwer announced UpToDate content inside Ask.",
-    "last_verified": "2026-10-26",
+    "notes": "The OpenEvidence v. Doximity lawsuit was dismissed with prejudice on Oct 16, 2026 after a settlement in principle; each side bears its own costs and other terms were not disclosed (Fierce Healthcare). On Oct 20, 2026 Doximity and Wolters Kluwer announced UpToDate content inside Ask. Doximity's own Oct 29, 2026 analysis (vendor research, not peer reviewed) reported that nine 2026 LLMs got at least 2.3% of doses wrong across 8,000+ dosing questions, and that DoseCheck's dosing findings were correct 99.9% of the time.",
+    "last_verified": "2026-11-02",
     "ed_criteria": {
       "interruptions": "Not yet evaluated",
       "multi_patient": "Not yet evaluated",
@@ -1095,17 +1102,18 @@
     ],
     "pricing": "Not publicly stated (enterprise)",
     "hipaa_baa": "Unknown",
-    "fda_status": "FDA 510(k) clearances incl. K221248 (2022) and K222884 (2023); Lumina 3D cleared Feb 2025",
+    "fda_status": "FDA 510(k) clearances incl. K262301 (Rapid ICH v4.0, Oct 9, 2026, product code QAS), K221248 (2022) and K222884 (2023); Lumina 3D cleared Feb 2025",
     "ed_specific_vendor_claims": [],
     "studies": [],
     "sources": [
+      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K262301",
       "https://www.accessdata.fda.gov/cdrh_docs/pdf22/K221248.pdf",
       "https://www.accessdata.fda.gov/cdrh_docs/pdf22/K222884.pdf",
       "https://www.rapidai.com/press-release/ncct-stroke",
       "https://www.rapidai.com/press-release/rapidai-secures-fda-clearance-for-groundbreaking-ai-3d-head-and-neck-cta-imaging-lumina-3d"
     ],
     "notes": "",
-    "last_verified": "2026-10-18",
+    "last_verified": "2026-11-02",
     "ed_criteria": {
       "interruptions": "Not yet evaluated",
       "multi_patient": "Not yet evaluated",
@@ -2039,6 +2047,99 @@
     ],
     "notes": "Acquisition guidance only. Potentially useful for less-experienced scanners doing lung ultrasound for dyspnea or pulmonary edema, but it won't read B-lines for you.",
     "last_verified": "2026-10-26",
+    "ed_criteria": {
+      "interruptions": "Not yet evaluated",
+      "multi_patient": "Not yet evaluated",
+      "noisy_environment": "Not yet evaluated",
+      "trauma_resus": "Not yet evaluated",
+      "ehr_fit": "Not yet evaluated",
+      "privacy_baa": "Not yet evaluated",
+      "pricing_value": "Not yet evaluated",
+      "evidence": "Not yet evaluated"
+    },
+    "physician_review": null,
+    "ratings": null,
+    "sponsored": false,
+    "affiliate_link": null,
+    "free_tier": false,
+    "fda_authorized": true
+  },
+  {
+    "slug": "tempus-ecg-mr",
+    "name": "Tempus ECG-MR",
+    "company": "Tempus AI",
+    "url": "https://www.tempus.com/solutions/ecg-ai/",
+    "category": "ecg-cardiac",
+    "tagline": "12-lead ECG algorithm that flags signs of undiagnosed moderate or severe mitral regurgitation in at-risk adults 65 and older.",
+    "features": [
+      "Analyzes resting, non-ambulatory 12-lead ECGs recorded at a healthcare facility and returns a binary output",
+      "Intended for patients 65+ with cardiovascular risk factors or symptoms such as dyspnea, chest pain or lower extremity edema, without prior mitral valve intervention or known moderate/severe MR",
+      "Not a standalone diagnostic; not for serial monitoring or paced rhythms",
+      "Vendor-reported performance: PPV 13.9% and NPV 97.8% at the 6.0% MR prevalence seen in its clinical study"
+    ],
+    "ehr_integrations": [
+      "Unknown"
+    ],
+    "pricing": "Not publicly stated",
+    "hipaa_baa": "Unknown",
+    "fda_status": "FDA 510(k) K254297 (Sept 25, 2026), Class II, 21 CFR 870.2380; predetermined change control plan authorized",
+    "ed_specific_vendor_claims": [],
+    "studies": [],
+    "sources": [
+      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K254297",
+      "https://www.tempus.com/news/pr/tempus-receives-fda-clearance-for-its-ecg-mr-ai-product-designed-to-identify-undiagnosed-mitral-regurgitation/",
+      "https://www.tempus.com/solutions/ecg-ai/"
+    ],
+    "notes": "A screening/notification tool rather than an acute ED tool: a positive result points toward echocardiography follow-up. With a 13.9% PPV, most flags will be false positives.",
+    "last_verified": "2026-11-02",
+    "ed_criteria": {
+      "interruptions": "Not yet evaluated",
+      "multi_patient": "Not yet evaluated",
+      "noisy_environment": "Not yet evaluated",
+      "trauma_resus": "Not yet evaluated",
+      "ehr_fit": "Not yet evaluated",
+      "privacy_baa": "Not yet evaluated",
+      "pricing_value": "Not yet evaluated",
+      "evidence": "Not yet evaluated"
+    },
+    "physician_review": null,
+    "ratings": null,
+    "sponsored": false,
+    "affiliate_link": null,
+    "free_tier": false,
+    "fda_authorized": true
+  },
+  {
+    "slug": "deep-breathe-blineslide",
+    "name": "BlineSlide",
+    "company": "Deep Breathe",
+    "url": "https://deepbreathe.ai",
+    "category": "pocus-ai",
+    "tagline": "Lung ultrasound AI that detects B lines and, as of an Oct 2026 clearance, absent lung sliding (a pneumothorax warning sign).",
+    "features": [
+      "Absent lung sliding detection: vendor calls it the first FDA-cleared AI dedicated to this finding (510(k) K261679, Oct 23, 2026)",
+      "B line artifact module: detects presence or absence of B lines in lung ultrasound clips (K252007, Oct 2025; standalone sensitivity 0.91, specificity 0.84 on 1,005 cines per the FDA summary)",
+      "2025 version: cloud service taking uploaded MP4 clips from non-linear probes, adults 18+; intended users include emergency physicians",
+      "Vendor says its software works with any ultrasound system and runs on-device on iOS and Android"
+    ],
+    "ehr_integrations": [
+      "Unknown"
+    ],
+    "pricing": "Not publicly stated",
+    "hipaa_baa": "Unknown",
+    "fda_status": "FDA 510(k) K261679 (Oct 23, 2026, product code POK) and K252007 (Oct 6, 2025, product code QIH)",
+    "ed_specific_vendor_claims": [
+      "Positioned for use at the bedside, in ambulances and in the field; a related application was tested with US Marine Corps medical personnel (vendor release)"
+    ],
+    "studies": [],
+    "sources": [
+      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261679",
+      "https://www.einpresswire.com/article/952867619/deep-breathe-receives-fda-clearance-for-the-first-ai-dedicated-to-detecting-absent-lung-sliding",
+      "https://www.accessdata.fda.gov/cdrh_docs/pdf25/K252007.pdf",
+      "https://deepbreathe.ai"
+    ],
+    "notes": "The FDA decision summary for K261679 wasn't posted yet as of Nov 2, 2026, so the exact indications and performance for the lung-sliding module are unconfirmed. Absent sliding alone doesn't diagnose pneumothorax.",
+    "last_verified": "2026-11-02",
     "ed_criteria": {
       "interruptions": "Not yet evaluated",
       "multi_patient": "Not yet evaluated",
