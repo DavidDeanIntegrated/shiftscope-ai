@@ -157,14 +157,17 @@
     "category": "ambient-documentation",
     "tagline": "AI scribe with a free-forever tier, cited Evidence answers, and Epic/Oracle Health integrations on team plans.",
     "features": [
-      "Free: unlimited transcription and standard-template notes, Evidence queries with citations, 10 advanced actions/month",
-      "Clinician: unlimited advanced templates, documents and Ask Heidi",
-      "Practice/Enterprise: full EHR integration access and team features"
+      "Free: one seat, unlimited transcription and standard templates, limited Evidence answers, and a small weekly allowance for agents",
+      "Clinician: Standard or Max seats with a monthly usage limit (expanded on Max)",
+      "Teams: custom pricing, team management, SSO and EHR integration",
+      "Heidi II (rolling out from Sept 29, 2026; not available in the UK or EU): agents that carry out pre-charting, referral forms, result follow-up and patient outreach, plus saved Routines, Memory and computer use across other systems",
+      "By default, anything that touches a chart, reaches a patient or leaves the system waits for clinician review (Manual mode); Auto mode is optional. Heidi says it won't prescribe, delete records or submit claims in any mode",
+      "Evidence answers drawing on full-text articles from NEJM, Wiley, Cochrane and more"
     ],
     "ehr_integrations": [
       "Epic, Oracle Health (Cerner, incl. FirstNet MPage components per third-party listing), athenahealth, eClinicalWorks and others; full integration requires Practice/Enterprise"
     ],
-    "pricing": "Free $0; Clinician about $150/mo monthly or about $110/mo billed annually (US, per third-party price check, Sept 2026); Practice/Enterprise custom",
+    "pricing": "Free $0; Clinician about $150/mo monthly or about $110/mo billed annually (US, per third-party price check, Sept 2026; the vendor page doesn't show prices); Teams custom",
     "hipaa_baa": "Vendor states HIPAA compliance (per third-party summary of vendor security claims); BAA terms: Unknown",
     "fda_status": "None found (documentation tool)",
     "ed_specific_vendor_claims": [],
@@ -179,10 +182,13 @@
       "https://www.heidihealth.com/en-us/pricing",
       "https://clinicframe.com/blog/heidi-health-pricing",
       "https://agenticindex.io/vendors/heidi",
-      "https://www.heidihealth.com/legal/referral-program-terms-and-conditions"
+      "https://www.heidihealth.com/legal/referral-program-terms-and-conditions",
+      "https://www.heidihealth.com/en-us/blog/heidi-ii-is-here",
+      "https://www.prnewswire.com/apac/news-releases/heidi-ii-puts-agents-to-work-on-visit-admin-giving-clinicians-more-time-with-patients-302891464.html",
+      "https://www.fiercehealthcare.com/ai-and-machine-learning/heidi-launches-new-platform-tackle-administrative-work-ai-agents"
     ],
-    "notes": "Heidi runs a public referral program (USD $25 to $50 per paid referral, capped at 10 per month). Any ShiftScope referral link must be disclosed.",
-    "last_verified": "2026-10-19",
+    "notes": "Heidi runs a public referral program (USD $25 to $50 per paid referral, capped at 10 per month). Any ShiftScope referral link must be disclosed. Heidi II's agent workflows (ward-round pre-charting, referrals, recalls) are built around clinic and inpatient admin rather than ED shifts.",
+    "last_verified": "2026-11-09",
     "ed_criteria": {
       "interruptions": "Not yet evaluated",
       "multi_patient": "Not yet evaluated",
@@ -321,16 +327,18 @@
     "hipaa_baa": "Unknown",
     "fda_status": "None found (documentation tool)",
     "ed_specific_vendor_claims": [
-      "Vendor lists emergency settings among supported care settings"
+      "Vendor lists emergency settings among supported care settings",
+      "KLAS ROI validation report (announced Nov 3, 2026) on Memorial Hermann's ED: about $37,500 more annual productivity per ED physician, 1.3% more wRVUs per encounter and 1.7 more visits per 10-hour shift vs non-users, after a 15-month pilot with about 100 ED physicians (vendor-announced; KLAS interviews of health-system-measured data, not a peer-reviewed study)"
     ],
     "studies": [],
     "sources": [
       "https://www.ambiencehealthcare.com/",
       "https://www.ambiencehealthcare.com/blog/ambience-healthcare-joins-epic-toolbox-unlocking-advanced-ai-functionality-within-haiku-for-epic-customers",
-      "https://www.ambiencehealthcare.com/blog/ambience-healthcare-s-ai-platform-surpasses-clinician-performance-by-27-in-medical-coding-powered-by-new-openai-breakthrough"
+      "https://www.ambiencehealthcare.com/blog/ambience-healthcare-s-ai-platform-surpasses-clinician-performance-by-27-in-medical-coding-powered-by-new-openai-breakthrough",
+      "https://www.ambiencehealthcare.com/blog/new-klas-research-report-shows-clinical-and-financial-impact-of-ambience-healthcare-at-memorial-hermann"
     ],
-    "notes": "Cleveland Clinic's announced 2025 rollout was for ambulatory providers, not the ED.",
-    "last_verified": "2026-10-18",
+    "notes": "Cleveland Clinic's announced 2025 rollout was for ambulatory providers, not the ED. Memorial Hermann expanded Ambience to 560+ clinicians across ambulatory care and emergency medicine after its ED pilot.",
+    "last_verified": "2026-11-09",
     "ed_criteria": {
       "interruptions": "Not yet evaluated",
       "multi_patient": "Not yet evaluated",
@@ -449,10 +457,10 @@
     "features": [
       "Note templates (SOAP, H&P, consults, procedure summaries, dictation) plus custom templates",
       "Works with Doximity Dialer visits and Doximity Ask",
-      "Copy/send note to the chart (no named EHR integration)"
+      "Copy/send note to the chart; EHR-integrated at some health systems that buy Doximity's AI suite (e.g. NewYork-Presbyterian)"
     ],
     "ehr_integrations": [
-      "No named EHR integration; copy into chart"
+      "Integrated into NewYork-Presbyterian's EHR workflow (with Doximity Ask; reported Nov 2026); otherwise copy into chart"
     ],
     "pricing": "Free for verified US physicians, NPs, PAs and medical students",
     "hipaa_baa": "Vendor states HIPAA compliant",
@@ -461,10 +469,11 @@
     "studies": [],
     "sources": [
       "https://www.doximity.com/clinicians/scribe",
-      "https://support.doximity.com/hc/en-us/articles/55409797170451-How-To-Use-Doximity-Scribe"
+      "https://support.doximity.com/hc/en-us/articles/55409797170451-How-To-Use-Doximity-Scribe",
+      "https://www.fiercehealthcare.com/ai-and-machine-learning/doximity-expands-clinical-ai-footprint-more-190-health-systems"
     ],
     "notes": "",
-    "last_verified": "2026-10-18",
+    "last_verified": "2026-11-09",
     "ed_criteria": {
       "interruptions": "Not yet evaluated",
       "multi_patient": "Not yet evaluated",
@@ -584,7 +593,8 @@
     "features": [
       "Models: Osler (fast), Sackett (more thorough), Snow (multi-minute structured report; replaced DeepConsult)",
       "Content agreements with NEJM, JAMA Network, NCCN, Cochrane and more",
-      "Society partnerships listed include ACEP"
+      "Society partnerships listed include ACEP",
+      "Learn (launched Nov 4, 2026, free): 50,000+ board-style questions incl. specialty boards, 'Preceptor' AI case-based tutoring, flashcards, and CME credit for clinical questions you ask"
     ],
     "ehr_integrations": [
       "Embedded in Epic at some health systems (e.g. Northwestern Medicine, with single sign-on from Oct 8, 2026)",
@@ -614,10 +624,11 @@
       "https://www.healthcareitnews.com/news/northwestern-medicine-integrates-openevidence-epic",
       "https://physicianintheloop.org/posts/2026-10-16/",
       "https://www.fiercehealthcare.com/ai-and-machine-learning/openevidence-doximity-reach-settlement-contentious-ai-lawsuit",
-      "https://www.openevidence.com/announcements/openevidence-and-nyu-langone-health-partner-to-bring-patient-aware-intelligence-to-12-million-visits-in-new-york-city"
+      "https://www.openevidence.com/announcements/openevidence-and-nyu-langone-health-partner-to-bring-patient-aware-intelligence-to-12-million-visits-in-new-york-city",
+      "https://www.openevidence.com/announcements/announcing-learn"
     ],
     "notes": "Per the Oct 2026 JAMA usage study, 88% of emergency physicians' queries were about topics outside emergency medicine (the highest of any specialty). The OpenEvidence v. Doximity lawsuit settled: a settlement in principle was filed Oct 15, 2026 and the case was dismissed with prejudice on Oct 16, with each side paying its own costs; other terms were not disclosed.",
-    "last_verified": "2026-11-02",
+    "last_verified": "2026-11-09",
     "ed_criteria": {
       "interruptions": "Not yet evaluated",
       "multi_patient": "Not yet evaluated",
@@ -690,10 +701,11 @@
       "Clinical questions answered in the Doximity app (vendor calls it a 'workflow assistant')",
       "Connected with Doximity Scribe and Dialer",
       "UpToDate answers (from UpToDate's 13,000 topics) shown alongside Ask's AI answer for clinicians at health systems licensing both, rolling out 'in the coming weeks' from Oct 20, 2026",
-      "DoseCheck (launched Oct 29, 2026): free deterministic check of each AI-generated medication dose against Doximity's structured drug database (RxIndex, based on FDA labeling, guidelines and literature); verified doses get a green badge linking to the source"
+      "DoseCheck (launched Oct 29, 2026): free deterministic check of each AI-generated medication dose against Doximity's structured drug database (RxIndex, based on FDA labeling, guidelines and literature); verified doses get a green badge linking to the source",
+      "Patient context (rolling out; UC San Diego Health among the first): ingests EHR charts, labs and history for patient-specific answers, per Doximity's Nov 2026 earnings call"
     ],
     "ehr_integrations": [
-      "No EHR integration stated"
+      "Integrated into NewYork-Presbyterian's EHR workflow alongside Doximity Scribe (10 hospitals; reported Nov 2026); patient-context feature pulls chart data at adopting systems such as UC San Diego Health"
     ],
     "pricing": "Free for verified US physicians, NPs, PAs and medical students",
     "hipaa_baa": "Vendor states HIPAA compliant",
@@ -708,10 +720,11 @@
       "https://investors.doximity.com/news/news-details/2026/Doximity-and-Wolters-Kluwer-Sign-Partnership-to-Bring-UpToDate-to-Doximity-Ask/default.aspx",
       "https://www.fiercehealthcare.com/ai-and-machine-learning/openevidence-doximity-reach-settlement-contentious-ai-lawsuit",
       "https://blog.doximity.com/articles/over-2-of-llm-doses-are-wrong-some-can-be-lethal",
-      "https://www.healthcaredive.com/news/popular-ai-models-get-medication-doses-wrong-some-dangerously-doximity/873207/"
+      "https://www.healthcaredive.com/news/popular-ai-models-get-medication-doses-wrong-some-dangerously-doximity/873207/",
+      "https://www.fiercehealthcare.com/ai-and-machine-learning/doximity-expands-clinical-ai-footprint-more-190-health-systems"
     ],
-    "notes": "The OpenEvidence v. Doximity lawsuit was dismissed with prejudice on Oct 16, 2026 after a settlement in principle; each side bears its own costs and other terms were not disclosed (Fierce Healthcare). On Oct 20, 2026 Doximity and Wolters Kluwer announced UpToDate content inside Ask. Doximity's own Oct 29, 2026 analysis (vendor research, not peer reviewed) reported that nine 2026 LLMs got at least 2.3% of doses wrong across 8,000+ dosing questions, and that DoseCheck's dosing findings were correct 99.9% of the time.",
-    "last_verified": "2026-11-02",
+    "notes": "The OpenEvidence v. Doximity lawsuit was dismissed with prejudice on Oct 16, 2026 after a settlement in principle; each side bears its own costs and other terms were not disclosed (Fierce Healthcare). On Oct 20, 2026 Doximity and Wolters Kluwer announced UpToDate content inside Ask. Doximity's own Oct 29, 2026 analysis (vendor research, not peer reviewed) reported that nine 2026 LLMs got at least 2.3% of doses wrong across 8,000+ dosing questions, and that DoseCheck's dosing findings were correct 99.9% of the time. As of the Nov 2026 earnings call, more than 190 health systems had bought Doximity's AI suite, and Doximity said it's opening API access to its clinical AI.",
+    "last_verified": "2026-11-09",
     "ed_criteria": {
       "interruptions": "Not yet evaluated",
       "multi_patient": "Not yet evaluated",
@@ -838,14 +851,20 @@
     "hipaa_baa": "Unknown",
     "fda_status": "FDA De Novo authorization (DEN250044), announced September 15, 2026; FDA Breakthrough Device Designation March 2025",
     "ed_specific_vendor_claims": [],
-    "studies": [],
+    "studies": [
+      {
+        "title": "Silwanis et al., AI-assisted ECG interpretation for OMI after cardiac arrest: multi-reader, multi-case study (Sci Rep, Nov 2026): 69 post-ROSC ECGs, 15 physicians; with Queen of Hearts, AUC rose from 0.882 to 0.912 and specificity from 84.6% to 90.4%, sensitivity unchanged (78%). 97% of changed decisions followed the AI, helping when it was right and hurting when it was wrong",
+        "url": "https://doi.org/10.1038/s41598-026-78777-8"
+      }
+    ],
     "sources": [
       "https://www.powerfulmedical.com/blog/powerful-medical-receives-fda-de-novo-authorization-for-pmcardio-queen-of-hearts-its-ai-ecg-model-for-detecting-acute-heart-attacks/",
       "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/denovo.cfm?id=DEN250044",
-      "https://www.tctmd.com/news/fda-clears-first-ai-ecg-model-acute-mi-detection"
+      "https://www.tctmd.com/news/fda-clears-first-ai-ecg-model-acute-mi-detection",
+      "https://www.nature.com/articles/s41598-026-78777-8"
     ],
     "notes": "Vendor cites 20+ peer-reviewed studies incl. RCTs; individual citations to be added after physician review.",
-    "last_verified": "2026-10-18",
+    "last_verified": "2026-11-09",
     "ed_criteria": {
       "interruptions": "Not yet evaluated",
       "multi_patient": "Not yet evaluated",
@@ -1585,17 +1604,19 @@
     "company": "Bayesian Health",
     "url": "https://www.bayesianhealth.com",
     "category": "sepsis-triage-early-warning",
-    "tagline": "Real-time clinical intelligence platform whose TREWS sepsis model was studied prospectively at 5 sites.",
+    "tagline": "Real-time clinical intelligence platform whose sepsis flagging device (TREWS) was FDA-cleared in April 2026 and studied prospectively at 5 sites.",
     "features": [
       "Continuous monitoring for sepsis, deterioration and other conditions",
+      "FDA-cleared Sepsis Flagging Device: continuously analyzes EHR data (including the ED chief complaint, labs, vitals, orders and comorbidities) for adults from ED presentation or admission and shows a 'Sepsis Risk High' flag in the EHR for sepsis developing within 24 hours",
+      "Per the FDA summary (7,732 encounters, 4 hospitals, sepsis prevalence about 3%): encounter-level PPA 79.4%, NPA 89.5%, flag-level PPV 11.7%. Encounter-level PPA missed the prespecified 80% lower-bound target",
       "EHR-integrated alerts and guidance"
     ],
     "ehr_integrations": [
-      "Works alongside Epic (vendor compares against the Epic sepsis algorithm); specifics Unknown"
+      "Flags display within the EHR; works alongside Epic (vendor compares against the Epic sepsis algorithm); specifics Unknown"
     ],
-    "pricing": "Not publicly stated",
+    "pricing": "Not publicly stated. Medicare NTAP approved for FY 2027 (from Oct 1, 2026): up to $61.84 per eligible inpatient case (vendor)",
     "hipaa_baa": "Unknown",
-    "fda_status": "Unknown",
+    "fda_status": "FDA 510(k) K250680 (Apr 30, 2026), Class II, 21 CFR 880.6316, product code SAK (predicate: Prenosis Sepsis ImmunoScore); FDA Breakthrough Device designation",
     "ed_specific_vendor_claims": [],
     "studies": [
       {
@@ -1609,10 +1630,13 @@
     ],
     "sources": [
       "https://www.bayesianhealth.com/",
-      "https://www.nature.com/articles/s41591-022-01894-0"
+      "https://www.nature.com/articles/s41591-022-01894-0",
+      "https://www.accessdata.fda.gov/cdrh_docs/pdf25/K250680.pdf",
+      "https://www.bayesianhealth.com/insights/bayesian-health-s-fda-cleared-continuous-ai-sepsis-monitor-approved-for-medicare-new-technology-add-on-payment-(ntap)-bayesian-health-logo",
+      "https://www.medicaldevice-network.com/news/bayesian-fda-510k-clearance-continuous-ai-sepsis-system/"
     ],
-    "notes": "The Nature Medicine study was observational, not randomized.",
-    "last_verified": "2026-10-18",
+    "notes": "The Nature Medicine study was observational, not randomized. With a flag-level PPV of 11.7% at about 3% prevalence, most flags in an all-comers ED population won't be sepsis.",
+    "last_verified": "2026-11-09",
     "ed_criteria": {
       "interruptions": "Not yet evaluated",
       "multi_patient": "Not yet evaluated",
@@ -1628,7 +1652,7 @@
     "sponsored": false,
     "affiliate_link": null,
     "free_tier": false,
-    "fda_authorized": false
+    "fda_authorized": true
   },
   {
     "slug": "epic-sepsis-model",
@@ -1791,7 +1815,8 @@
     "features": [
       "Discharge instructions with home care, follow-up and return precautions",
       "Work, school, daycare and return-to-play notes with minimum necessary information",
-      "Adjustable reading level and translation"
+      "Adjustable reading level and translation",
+      "In palmER's Patient Mode, discharge instructions are written automatically below the MDM and update when the MDM changes"
     ],
     "ehr_integrations": [
       "Vendor says it 'works with any EMR' (paste-in or chart view)"
@@ -1804,10 +1829,11 @@
     ],
     "studies": [],
     "sources": [
-      "https://www.palm-er.com/palmer/assistants/discharger"
+      "https://www.palm-er.com/palmer/assistants/discharger",
+      "https://www.palm-er.com/support/docs/palmer-ai-suite/features/ambient-scribing"
     ],
-    "notes": "",
-    "last_verified": "2026-10-18",
+    "notes": "Part of palmER's ED documentation suite; see the separate palmER AI Suite listing for the ambient scribe and MDM assistant.",
+    "last_verified": "2026-11-09",
     "ed_criteria": {
       "interruptions": "Not yet evaluated",
       "multi_patient": "Not yet evaluated",
@@ -2028,25 +2054,29 @@
     "tagline": "AI acquisition guidance on the Vscan Air handheld that walks users through a standard 8-zone lung ultrasound protocol.",
     "features": [
       "Detects lung landmarks to guide the user to a reference point in each of 8 zones (upper/lower anterior, upper/lower lateral, both sides)",
-      "Auto-captures 5-second clips per zone with an optional chime",
-      "Does not detect or annotate pathology; images must be interpreted by a qualified physician",
+      "Auto-captures 5-second clips per zone with an optional chime; a Save Best Clip option keeps the best clip when auto-capture conditions aren't met",
+      "GE's Nov 3, 2026 launch release says Lung Guidance also supports B-line detection and scoring plus reporting, while GE's support article for the cleared guidance says it does not detect or annotate pathology; confirm what your package includes",
+      "GE-reported validation: non-expert users acquired diagnostic-quality lung exams 95.2% of the time vs 96.8% for experts (descriptive assessment)",
+      "New AutoAS (Vscan Air SL only): suggests whether 2D cardiac views (2+ of PLAX, PSAX-AV, AP5) are consistent with moderate/severe aortic stenosis, with a confidence score; FDA summary reports standalone sensitivity 75.2% and specificity 92.4%",
       "Indicated for patients older than 21; a paid add-on in the Vscan Air app, not available in Guest mode"
     ],
     "ehr_integrations": [
       "Unknown"
     ],
-    "pricing": "Not publicly stated",
+    "pricing": "Not publicly stated; sold through Vscan Air Innovation Packages. Existing subscribers expected to get Lung Guidance and AutoAS by end of Nov 2026 (GE)",
     "hipaa_baa": "Unknown",
-    "fda_status": "FDA 510(k) K261042 (Oct 2, 2026), product code QJU (AI-guided image acquisition)",
+    "fda_status": "FDA 510(k) K261042 (Lung Guidance, Oct 2, 2026, product code QJU); AutoAS K254161 (Mar 27, 2026, product code POK)",
     "ed_specific_vendor_claims": [],
     "studies": [],
     "sources": [
       "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261042",
       "https://vscanair-support.gehealthcare.com/support/solutions/articles/47001299215-lung-guidance",
-      "https://www.aihealthcarenow.com/fda-cleared-ai/radiology/image-acquisition-and-or-optimization-guided-by-artificial-intelligence-qju/"
+      "https://www.aihealthcarenow.com/fda-cleared-ai/radiology/image-acquisition-and-or-optimization-guided-by-artificial-intelligence-qju/",
+      "https://www.gehealthcare.com/en-us/about/newsroom/press-releases/ge-healthcare-reinforces-leadership-in-ai-with-lung-guidance-and-autoas-on-vscan-airtm-for-point-of-care-ultrasound-assessments",
+      "https://www.accessdata.fda.gov/cdrh_docs/pdf25/K254161.pdf"
     ],
-    "notes": "Acquisition guidance only. Potentially useful for less-experienced scanners doing lung ultrasound for dyspnea or pulmonary edema, but it won't read B-lines for you.",
-    "last_verified": "2026-10-26",
+    "notes": "Mostly acquisition guidance. Potentially useful for less-experienced scanners doing lung ultrasound for dyspnea or pulmonary edema. AutoAS is a diagnostic aid that flags who may need a full echo, not a replacement for one.",
+    "last_verified": "2026-11-09",
     "ed_criteria": {
       "interruptions": "Not yet evaluated",
       "multi_patient": "Not yet evaluated",
@@ -2117,9 +2147,10 @@
     "category": "pocus-ai",
     "tagline": "Lung ultrasound AI that detects B lines and, as of an Oct 2026 clearance, absent lung sliding (a pneumothorax warning sign).",
     "features": [
-      "Absent lung sliding detection: vendor calls it the first FDA-cleared AI dedicated to this finding (510(k) K261679, Oct 23, 2026)",
+      "Absent lung sliding detection (510(k) K261679, Oct 23, 2026): concurrent reading aid that flags absent pleural line motion (lung sliding or lung pulse) on lung ultrasound cines in adults 18+; vendor calls it the first FDA-cleared AI dedicated to this finding",
+      "Per the FDA summary: standalone sensitivity 0.94 and specificity 0.87 on 818 cines; in a 25-reader study, aided reader sensitivity rose from 0.716 to 0.880 and AUC from 0.855 to 0.922, while the specificity gain (0.820 to 0.841) was not statistically significant",
       "B line artifact module: detects presence or absence of B lines in lung ultrasound clips (K252007, Oct 2025; standalone sensitivity 0.91, specificity 0.84 on 1,005 cines per the FDA summary)",
-      "2025 version: cloud service taking uploaded MP4 clips from non-linear probes, adults 18+; intended users include emergency physicians",
+      "Cloud service: you upload de-identified MP4 cines (non-linear probes only, 2.6 to 7.8 seconds, 18+ fps) within 1 hour of acquisition; it returns 'Cannot Evaluate' for clips that don't qualify. Validated on Sonosite, Philips, Butterfly, Mindray and GE systems",
       "Vendor says its software works with any ultrasound system and runs on-device on iOS and Android"
     ],
     "ehr_integrations": [
@@ -2127,19 +2158,21 @@
     ],
     "pricing": "Not publicly stated",
     "hipaa_baa": "Unknown",
-    "fda_status": "FDA 510(k) K261679 (Oct 23, 2026, product code POK) and K252007 (Oct 6, 2025, product code QIH)",
+    "fda_status": "FDA 510(k) K261679 (Oct 23, 2026, product code POK, 21 CFR 892.2060; predicate Sonio Suspect K243614) and K252007 (Oct 6, 2025, product code QIH)",
     "ed_specific_vendor_claims": [
-      "Positioned for use at the bedside, in ambulances and in the field; a related application was tested with US Marine Corps medical personnel (vendor release)"
+      "Positioned for use at the bedside, in ambulances and in the field; a related application was tested with US Marine Corps medical personnel (vendor release)",
+      "FDA summary lists emergency departments and ICUs among use environments and emergency, internal and critical care physicians among intended users (requires reliable internet)"
     ],
     "studies": [],
     "sources": [
       "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261679",
       "https://www.einpresswire.com/article/952867619/deep-breathe-receives-fda-clearance-for-the-first-ai-dedicated-to-detecting-absent-lung-sliding",
       "https://www.accessdata.fda.gov/cdrh_docs/pdf25/K252007.pdf",
-      "https://deepbreathe.ai"
+      "https://deepbreathe.ai",
+      "https://www.accessdata.fda.gov/cdrh_docs/pdf26/K261679.pdf"
     ],
-    "notes": "The FDA decision summary for K261679 wasn't posted yet as of Nov 2, 2026, so the exact indications and performance for the lung-sliding module are unconfirmed. Absent sliding alone doesn't diagnose pneumothorax.",
-    "last_verified": "2026-11-02",
+    "notes": "Per the FDA summary, care that's clinically indicated (including intervention for suspected tension physiology) shouldn't wait for a BlineSlide result, and patient management decisions shouldn't rest on its output alone. Absent sliding alone doesn't diagnose pneumothorax. In the reader study, emergency physicians' aided specificity (0.88) was about the same as unaided (0.89).",
+    "last_verified": "2026-11-09",
     "ed_criteria": {
       "interruptions": "Not yet evaluated",
       "multi_patient": "Not yet evaluated",
@@ -2156,5 +2189,56 @@
     "affiliate_link": null,
     "free_tier": false,
     "fda_authorized": true
+  },
+  {
+    "slug": "palmer-ai-suite",
+    "name": "palmER AI Suite (Ambient Scribe + MDM Assistant)",
+    "company": "palmER",
+    "url": "https://www.palm-er.com/palmer",
+    "category": "ambient-documentation",
+    "tagline": "ED-built documentation suite: an ambient scribe drafts HPI and exam, and an MDM assistant turns the pasted chart into a structured MDM.",
+    "features": [
+      "Ambient Scribe on iOS/Android (keeps listening with the screen locked) or the web; drafts HPI and Physical Exam and adds discussed results, plans, consults, reassessments and disposition to the MDM",
+      "Pause, resume and switch between multiple active patients; add exam findings or corrections that weren't said aloud",
+      "MDM Assistant: paste the chart to get an MDM covering differential, risk stratification, data reviewed and disposition reasoning, with a 'Can't Miss / Most Likely' differential sidebar and E/M level support",
+      "Also includes HPI/exam assistants, clinical decision support, chart analysis, consult scripts and discharge instructions (DischargER)"
+    ],
+    "ehr_integrations": [
+      "Vendor says it 'works with any EMR' (paste chart in, copy notes out); no named EHR integration"
+    ],
+    "pricing": "Pro plan $199/month per clinician (physicians, NPs, PAs); 30-day free trial, no credit card",
+    "hipaa_baa": "Vendor states HIPAA-compliant practices and says its own vendors sign BAAs; a customer BAA isn't mentioned (Unknown)",
+    "fda_status": "None found (documentation tool)",
+    "ed_specific_vendor_claims": [
+      "Built for the ED: multiple active patients, interruptions and an MDM-centered chart (vendor)",
+      "Audio is transcribed and immediately discarded, patient data auto-deletes within 24 hours, and encounters aren't used to train AI models (vendor); the speech-to-text stack is open source"
+    ],
+    "studies": [],
+    "sources": [
+      "https://www.palm-er.com/palmer",
+      "https://www.palm-er.com/palmer/ambient-scribe-for-emergency-medicine",
+      "https://www.palm-er.com/palmer/mdm-documentation-ai",
+      "https://www.palm-er.com/support/docs/palmer-ai-suite/features/ambient-scribing",
+      "https://www.palm-er.com/pricing",
+      "https://www.palm-er.com/security"
+    ],
+    "notes": "No published accuracy or outcome data found. Because patient data auto-deletes within 24 hours, finish and copy notes before then.",
+    "last_verified": "2026-11-09",
+    "ed_criteria": {
+      "interruptions": "Not yet evaluated",
+      "multi_patient": "Not yet evaluated",
+      "noisy_environment": "Not yet evaluated",
+      "trauma_resus": "Not yet evaluated",
+      "ehr_fit": "Not yet evaluated",
+      "privacy_baa": "Not yet evaluated",
+      "pricing_value": "Not yet evaluated",
+      "evidence": "Not yet evaluated"
+    },
+    "physician_review": null,
+    "ratings": null,
+    "sponsored": false,
+    "affiliate_link": null,
+    "free_tier": false,
+    "fda_authorized": false
   }
 ]
