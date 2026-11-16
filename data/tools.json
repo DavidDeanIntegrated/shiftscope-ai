@@ -592,9 +592,10 @@
     "tagline": "Free, citation-backed medical AI search for verified US clinicians, with content deals with NEJM, JAMA and others.",
     "features": [
       "Models: Osler (fast), Sackett (more thorough), Snow (multi-minute structured report; replaced DeepConsult)",
-      "Content agreements with NEJM, JAMA Network, NCCN, Cochrane and more",
+      "Content agreements with NEJM, JAMA Network, NCCN, Cochrane and more; ACP guidance and Annals of Internal Medicine content licensed Nov 9, 2026",
       "Society partnerships listed include ACEP",
-      "Learn (launched Nov 4, 2026, free): 50,000+ board-style questions incl. specialty boards, 'Preceptor' AI case-based tutoring, flashcards, and CME credit for clinical questions you ask"
+      "Learn (launched Nov 4, 2026, free): 50,000+ board-style questions incl. specialty boards, 'Preceptor' AI case-based tutoring, flashcards, and CME credit for clinical questions you ask",
+      "Access Intelligence (launched Nov 11, 2026, free): info on 2,500+ patient support and copay programs, savings sent to patients, program enrollment, and guideline-grounded prior authorization, appeal and medical-necessity letters"
     ],
     "ehr_integrations": [
       "Embedded in Epic at some health systems (e.g. Northwestern Medicine, with single sign-on from Oct 8, 2026)",
@@ -625,10 +626,12 @@
       "https://physicianintheloop.org/posts/2026-10-16/",
       "https://www.fiercehealthcare.com/ai-and-machine-learning/openevidence-doximity-reach-settlement-contentious-ai-lawsuit",
       "https://www.openevidence.com/announcements/openevidence-and-nyu-langone-health-partner-to-bring-patient-aware-intelligence-to-12-million-visits-in-new-york-city",
-      "https://www.openevidence.com/announcements/announcing-learn"
+      "https://www.openevidence.com/announcements/announcing-learn",
+      "https://www.openevidence.com/announcements/introducing-openevidence-access-intelligence-bringing-affordability-and-access-to-the-point-of-care",
+      "https://www.openevidence.com/announcements/acp-and-openevidence-collaborate-to-enhance-physician-access-to-trusted-clinical-guidance"
     ],
     "notes": "Per the Oct 2026 JAMA usage study, 88% of emergency physicians' queries were about topics outside emergency medicine (the highest of any specialty). The OpenEvidence v. Doximity lawsuit settled: a settlement in principle was filed Oct 15, 2026 and the case was dismissed with prejudice on Oct 16, with each side paying its own costs; other terms were not disclosed.",
-    "last_verified": "2026-11-09",
+    "last_verified": "2026-11-16",
     "ed_criteria": {
       "interruptions": "Not yet evaluated",
       "multi_patient": "Not yet evaluated",
@@ -751,7 +754,8 @@
     "tagline": "Generative AI answers grounded only in UpToDate's expert-authored content, with transparent reasoning.",
     "features": [
       "Conversational, cited answers grounded in UpToDate content",
-      "AI drug-dosing guidance added in 2026 (per news coverage)"
+      "AI drug-dosing guidance added in 2026 (per news coverage)",
+      "Embedded in partner platforms: Suki Ask (Oct 2026), Doximity Ask (Oct 2026) and Viz.ai One (announced Nov 16, 2026)"
     ],
     "ehr_integrations": [
       "Institutional deployments; available inside Suki's Ask feature (first product integration of the UpToDate Expert AI API, Oct 2026) across Epic, Oracle Health, athenahealth and MEDITECH",
@@ -767,10 +771,11 @@
       "https://www.wolterskluwer.com/en/solutions/uptodate/uptodate-expert-ai",
       "https://www.fiercehealthcare.com/ai-and-machine-learning/wolters-kluwer-rolls-out-gen-ai-version-uptodate-clinical-decision-support",
       "https://www.wolterskluwer.com/en/news/suki-ask-clinical-decision-support-uptodate-expert-ai",
-      "https://www.wolterskluwer.com/en/news/doximity-wolters-kluwer-uptodate-doximity-ask"
+      "https://www.wolterskluwer.com/en/news/doximity-wolters-kluwer-uptodate-doximity-ask",
+      "https://www.businesswire.com/news/home/20261116693879/en/Viz.ai-and-Wolters-Kluwer-Partner-to-Unite-Patient-Identification-Care-Coordination-and-UpToDate-Clinical-Evidence-on-a-Single-Platform"
     ],
     "notes": "Launched September 2025; reported at about 2,500 US hospitals and health systems by August 2026.",
-    "last_verified": "2026-10-26",
+    "last_verified": "2026-11-16",
     "ed_criteria": {
       "interruptions": "Not yet evaluated",
       "multi_patient": "Not yet evaluated",
@@ -1068,7 +1073,8 @@
     "features": [
       "Viz LVO detects suspected large vessel occlusion on CTA and notifies specialists",
       "Further cleared modules incl. ICH, SDH, AAA, RV/LV, aneurysm",
-      "Mobile viewing and team communication (mobile images non-diagnostic)"
+      "Mobile viewing and team communication (mobile images non-diagnostic)",
+      "UpToDate Expert AI inside Viz.ai One (partnership announced Nov 16, 2026): specialists ask clinical questions and get UpToDate-grounded answers using the patient's context"
     ],
     "ehr_integrations": [
       "PACS and mobile app; EHR specifics Unknown"
@@ -1082,10 +1088,11 @@
       "https://www.fda.gov/news-events/press-announcements/fda-permits-marketing-clinical-decision-support-software-alerting-providers-potential-stroke",
       "https://www.accessdata.fda.gov/cdrh_docs/reviews/DEN170073.pdf",
       "https://www.viz.ai/indications-for-use",
-      "https://www.fiercebiotech.com/medtech/viz-ai-upgrades-triage-platform-avicenna-ai-s-pulmonary-embolism-aortic-dissection"
+      "https://www.fiercebiotech.com/medtech/viz-ai-upgrades-triage-platform-avicenna-ai-s-pulmonary-embolism-aortic-dissection",
+      "https://www.businesswire.com/news/home/20261116693879/en/Viz.ai-and-Wolters-Kluwer-Partner-to-Unite-Patient-Identification-Care-Coordination-and-UpToDate-Clinical-Evidence-on-a-Single-Platform"
     ],
-    "notes": "PE and aortic dissection detection on the Viz platform comes from Avicenna.AI's CINA CHEST.",
-    "last_verified": "2026-10-18",
+    "notes": "PE and aortic dissection detection on the Viz platform comes from Avicenna.AI's CINA CHEST. Viz.ai says it is used in 2,000 US hospitals with 50+ AI care pathways (Nov 2026 release).",
+    "last_verified": "2026-11-16",
     "ed_criteria": {
       "interruptions": "Not yet evaluated",
       "multi_patient": "Not yet evaluated",
@@ -2240,5 +2247,101 @@
     "affiliate_link": null,
     "free_tier": false,
     "fda_authorized": false
+  },
+  {
+    "ehr_integrations": [
+      "Unknown"
+    ],
+    "pricing": "Not publicly stated",
+    "hipaa_baa": "Unknown",
+    "ed_specific_vendor_claims": [
+      "External validation of the related ECG Buddy technology was run in an emergency department population and published in an EM journal (vendor statement)"
+    ],
+    "studies": [
+      {
+        "title": "Interethnic validation of ECG image analysis software for detecting LV dysfunction in an ED population (Clin Exp Emerg Med, 2025; 22,599 MIMIC-IV ED visits; AUC about 0.91 for LVEF <40% vs 0.74 for NT-proBNP; studies the ECG Buddy app, not necessarily the exact cleared device)",
+        "url": "https://ceemjournal.org/journal/view.php?number=605"
+      }
+    ],
+    "notes": "ARPI (called ALP in Korean coverage) says it plans to work with US institutions and partners on adoption; no US deployment or pricing announced as of Nov 2026.",
+    "last_verified": "2026-11-16",
+    "ed_criteria": {
+      "interruptions": "Not yet evaluated",
+      "multi_patient": "Not yet evaluated",
+      "noisy_environment": "Not yet evaluated",
+      "trauma_resus": "Not yet evaluated",
+      "ehr_fit": "Not yet evaluated",
+      "privacy_baa": "Not yet evaluated",
+      "pricing_value": "Not yet evaluated",
+      "evidence": "Not yet evaluated"
+    },
+    "physician_review": null,
+    "ratings": null,
+    "sponsored": false,
+    "affiliate_link": null,
+    "free_tier": false,
+    "fda_authorized": true,
+    "slug": "ecg-buddy-lvd",
+    "name": "ECG Buddy-LVD",
+    "company": "ARPI (ALP)",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260436",
+    "category": "ecg-cardiac",
+    "tagline": "12-lead ECG AI that flags findings associated with reduced LV ejection fraction, from a company led by an emergency physician.",
+    "features": [
+      "Analyzes 12-lead ECGs for findings associated with reduced LVEF (per vendor)",
+      "Reference information to prompt follow-up testing such as echo; not a standalone diagnostic (per vendor)"
+    ],
+    "fda_status": "FDA 510(k) K260436 (decision Nov 6, 2026), Class II, product code QYE (reduced ejection fraction ML-based notification software). FDA summary not reviewed yet.",
+    "sources": [
+      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260436",
+      "https://dbr.donga.com/kfocus/view/en/article_no/3930",
+      "https://ceemjournal.org/journal/view.php?number=605"
+    ]
+  },
+  {
+    "ehr_integrations": [
+      "Oracle Health (Cerner) EHR, built in"
+    ],
+    "pricing": "Not publicly stated (enterprise)",
+    "hipaa_baa": "Unknown",
+    "ed_specific_vendor_claims": [
+      "ED and inpatient note generation available in the US (announced Mar 11, 2026)",
+      "AtlantiCare expanded it to all its EDs after a 41% documentation-time drop in ambulatory care (vendor announcement)"
+    ],
+    "studies": [],
+    "notes": "Relevant mainly if your ED runs on Oracle Health (Cerner/FirstNet). No published ED accuracy or outcome data found.",
+    "last_verified": "2026-11-16",
+    "ed_criteria": {
+      "interruptions": "Not yet evaluated",
+      "multi_patient": "Not yet evaluated",
+      "noisy_environment": "Not yet evaluated",
+      "trauma_resus": "Not yet evaluated",
+      "ehr_fit": "Not yet evaluated",
+      "privacy_baa": "Not yet evaluated",
+      "pricing_value": "Not yet evaluated",
+      "evidence": "Not yet evaluated"
+    },
+    "physician_review": null,
+    "ratings": null,
+    "sponsored": false,
+    "affiliate_link": null,
+    "free_tier": false,
+    "fda_authorized": false,
+    "slug": "oracle-health-clinical-ai-agent",
+    "name": "Oracle Health Clinical AI Agent",
+    "company": "Oracle Health",
+    "url": "https://www.oracle.com/health/clinical-suite/clinical-ai-agent/",
+    "category": "ambient-documentation",
+    "tagline": "Oracle Health's built-in ambient note agent, available for US emergency departments since March 2026.",
+    "features": [
+      "Drafts one ED encounter note from the conversation plus Oracle Health EHR data (triage notes, initial and re-exams)",
+      "Pulls discussed lab and imaging results into the draft; clinician reviews, edits and signs",
+      "Multiple notes per encounter (e.g. admit and progress notes) and speaker recognition for patient, caregivers and clinicians (per vendor)"
+    ],
+    "fda_status": "None found (documentation tool)",
+    "sources": [
+      "https://www.oracle.com/news/announcement/health-clinical-ai-agent-helps-emergency-and-inpatient-doctors-2026-03-11/",
+      "https://www.oracle.com/health/clinical-suite/clinical-ai-agent/"
+    ]
   }
 ]
