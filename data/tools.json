@@ -2343,5 +2343,72 @@
       "https://www.oracle.com/news/announcement/health-clinical-ai-agent-helps-emergency-and-inpatient-doctors-2026-03-11/",
       "https://www.oracle.com/health/clinical-suite/clinical-ai-agent/"
     ]
+  },
+  {
+    "slug": "ceribell-clarity",
+    "name": "Ceribell with Clarity",
+    "company": "CeriBell, Inc.",
+    "url": "https://ceribell.com/product/point-of-care-eeg/",
+    "category": "neuro-eeg",
+    "tagline": "Point-of-care EEG with FDA-cleared AI that marks possible electrographic seizures at the bedside, including in the ED.",
+    "features": [
+      "Single-use EEG headband (or infant headcap) plus a pocket recorder that records, stores and displays EEG in visual and audible formats in a professional healthcare facility (FDA indications)",
+      "Clarity seizure-detection software marks previously acquired EEG sections that may correspond to electrographic seizures and notifies when detected seizure prevalence is Frequent, Abundant or Continuous (ACNS Guideline 14)",
+      "Age coverage across separate 510(k)s: infants from 25-44 weeks postmenstrual age and under 1 year (K252070); patients 1 year and older (K241589); the original recorder software described adult (>=18) detection (K191301)",
+      "Status Epilepticus Monitor (K223504) is indicated as an aid for diagnosing electrographic status epilepticus in adults >=18 at risk for seizure, in acute care, used with other clinical information; not a substitute for EEG review of other patterns and not for epilepsy monitoring units",
+      "EEG can be streamed to Ceribell's cloud portal for remote review (per vendor). A separate Delirium Monitor (K251936) is cleared only to aid screening and monitoring of delirium in adult critical-care patients, not as a standalone diagnosis"
+    ],
+    "ehr_integrations": [
+      "No named EHR integration found; EEG streams to Ceribell's cloud portal (per vendor and purchase terms)"
+    ],
+    "pricing": "Not publicly stated (hospital subscription; purchase terms describe a Subscription Package with portal, software and recorders)",
+    "hipaa_baa": "Unknown",
+    "fda_status": "FDA 510(k) clearances, Class II: K191301 Ceribell Pocket EEG Device (Sept 11, 2019, product codes OMB/OMC/GWQ); K232052 Ceribell Instant EEG Headband (Aug 8, 2023, GXY/GWQ); K223504 Ceribell Status Epilepticus Monitor (May 23, 2023, OMB); K241589 Ceribell Seizure Detection Software for patients >=1 year (April 9, 2025, OMB); K252070 Ceribell Infant Seizure Detection Software for newborns (preterm or term neonates 25-44 weeks postmenstrual age) and infants <1 year (Nov 21, 2025, OMB); K251936 Ceribell Delirium Monitor System for adult critical-care patients (Dec 8, 2025, NCG/GWQ/OMC). Seizure-detection software does not provide a diagnostic conclusion about the patient's condition; notifications can lag the start of a seizure by up to several minutes and cannot replace real-time review of the underlying EEG by a trained expert.",
+    "ed_specific_vendor_claims": [
+      "Vendor ED page markets the system for rapid seizure triage of patients with suspected non-convulsive seizures",
+      "Vendor claim (ED page, checked Nov 17, 2026): 'Over 100 EDs use Ceribell on 20,000 patients and counting' (not independently verified)"
+    ],
+    "studies": [
+      {
+        "title": "Wright et al., Evaluating the utility of Rapid Response EEG in emergency care (Emerg Med J, 2021): 38-patient prospective 2-ED pilot. Physicians reported a change in management for 20/38 (53%) and expedited disposition for 8/38 (21%). Partially funded by Ceribell; one author is a Ceribell scientific advisor.",
+        "url": "https://doi.org/10.1136/emermed-2020-210903"
+      }
+    ],
+    "sources": [
+      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K191301",
+      "https://www.accessdata.fda.gov/cdrh_docs/pdf19/K191301.pdf",
+      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K232052",
+      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K223504",
+      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K241589",
+      "https://www.accessdata.fda.gov/cdrh_docs/pdf24/K241589.pdf",
+      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252070",
+      "https://www.accessdata.fda.gov/cdrh_docs/pdf25/K252070.pdf",
+      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251936",
+      "https://www.accessdata.fda.gov/cdrh_docs/pdf25/K251936.pdf",
+      "https://ceribell.com/ceribell-indications-safety-amp-warnings-patents/",
+      "https://ceribell.com/product/clarity/",
+      "https://ceribell.com/product/point-of-care-eeg/",
+      "https://ceribell.com/for-providers/emergency-department/",
+      "https://ceribell.com/purchase-terms/",
+      "https://doi.org/10.1136/emermed-2020-210903"
+    ],
+    "notes": "FDA labeling also warns that the recorder is not defibrillation-proof and is MR unsafe (remove before defibrillation or MRI). Delirium monitoring is cleared for adult critical-care settings, not specifically the ED. Existing stroke and ICH imaging tools (Viz.ai, RapidAI, Brainomix, etc.) were left in Imaging triage.",
+    "last_verified": "2026-11-17",
+    "ed_criteria": {
+      "interruptions": "Not yet evaluated",
+      "multi_patient": "Not yet evaluated",
+      "noisy_environment": "Not yet evaluated",
+      "trauma_resus": "Not yet evaluated",
+      "ehr_fit": "Not yet evaluated",
+      "privacy_baa": "Not yet evaluated",
+      "pricing_value": "Not yet evaluated",
+      "evidence": "Not yet evaluated"
+    },
+    "physician_review": null,
+    "ratings": null,
+    "sponsored": false,
+    "affiliate_link": null,
+    "free_tier": false,
+    "fda_authorized": true
   }
 ]
