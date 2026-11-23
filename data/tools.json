@@ -10,7 +10,9 @@
       "Ambient recording started from Epic Haiku; note text flows into Hyperspace",
       "Populates ED Provider Note sections such as HPI, Physical Exam and MDM (per a hospital tip sheet)",
       "Speech models detect specialty, language and multiple speakers (per vendor)",
-      "Linked clinical evidence including UpToDate inside the Abridge activity (per hospital tip sheet)"
+      "Linked clinical evidence including UpToDate inside the Abridge activity (per hospital tip sheet)",
+      "Abridge Assistant (in-chart clinical Q&A) now cites a health system's own care pathways via Local Pathways (opt-in, Nov 12, 2026); Abridge's example is a febrile young infant in the ED",
+      "Cochrane systematic reviews and Cochrane Clinical Answers licensed from Wiley for the Assistant; free Assistant for 108,000 clinicians at NACHC community health centers (HLTH, Nov 2026)"
     ],
     "ehr_integrations": [
       "Epic (ASAP module in Haiku and Hyperspace; SmartLinks)"
@@ -22,7 +24,8 @@
       "Built with Epic's Workshop program for the ED (Jan 2025)",
       "Clinicians select patients from the department Track Board and start recording in Haiku",
       "Named early ED users: Deaconess, Emory, Johns Hopkins, Mayo Clinic, UChicago Medicine (vendor announcement)",
-      "UT System enterprise-wide agreement (Oct 8, 2026) via UT REAL Health AI; the 2025 UT pilot included outpatient, inpatient and emergency department settings (vendor announcement)"
+      "UT System enterprise-wide agreement (Oct 8, 2026) via UT REAL Health AI; the 2025 UT pilot included outpatient, inpatient and emergency department settings (vendor announcement)",
+      "Assistant adopted across 300+ enterprise health systems and used at 75+ VA medical centers (vendor figures, Nov 2026)"
     ],
     "studies": [],
     "sources": [
@@ -30,10 +33,12 @@
       "https://www.fiercehealthcare.com/ai-and-machine-learning/abridge-offers-generative-ai-tool-emergency-medicine-emory-healthcare-johns",
       "https://nwhed.org/wp-content/uploads/ASAP_QSG_Abridge-Inside-for-Emergency-Department.pdf",
       "https://support.abridge.com/hc/en-us/articles/30235172323731-Send-an-Abridge-Note-Into-Epic",
-      "https://www.abridge.com/press-release/ut-health-enterprise-wide"
+      "https://www.abridge.com/press-release/ut-health-enterprise-wide",
+      "https://www.abridge.com/press-release/local-pathways-abridge-assistant",
+      "https://medcitynews.com/2026/11/abridge-announcements-during-hlth-emphasize-growing-healthcare-trend/"
     ],
     "notes": "",
-    "last_verified": "2026-11-02",
+    "last_verified": "2026-11-23",
     "ed_criteria": {
       "interruptions": "Not yet evaluated",
       "multi_patient": "Not yet evaluated",
@@ -167,7 +172,7 @@
     "ehr_integrations": [
       "Epic, Oracle Health (Cerner, incl. FirstNet MPage components per third-party listing), athenahealth, eClinicalWorks and others; full integration requires Practice/Enterprise"
     ],
-    "pricing": "Free $0; Clinician about $150/mo monthly or about $110/mo billed annually (US, per third-party price check, Sept 2026; the vendor page doesn't show prices); Teams custom",
+    "pricing": "Free $0; Clinician (Standard seat) $150/mo monthly or $110/mo billed annually; Max seat $409/mo monthly or $299/mo annually; a practice tier listed at $180/seat/mo billed annually; Enterprise custom (USD pricing data on Heidi's US pricing page, checked Nov 23, 2026)",
     "hipaa_baa": "Vendor states HIPAA compliance (per third-party summary of vendor security claims); BAA terms: Unknown",
     "fda_status": "None found (documentation tool)",
     "ed_specific_vendor_claims": [],
@@ -188,7 +193,7 @@
       "https://www.fiercehealthcare.com/ai-and-machine-learning/heidi-launches-new-platform-tackle-administrative-work-ai-agents"
     ],
     "notes": "Heidi runs a public referral program (USD $25 to $50 per paid referral, capped at 10 per month). Any ShiftScope referral link must be disclosed. Heidi II's agent workflows (ward-round pre-charting, referrals, recalls) are built around clinic and inpatient admin rather than ED shifts.",
-    "last_verified": "2026-11-09",
+    "last_verified": "2026-11-23",
     "ed_criteria": {
       "interruptions": "Not yet evaluated",
       "multi_patient": "Not yet evaluated",
@@ -802,24 +807,27 @@
     "tagline": "Elsevier's generative AI clinical answers grounded in its curated content, with linked citations.",
     "features": [
       "Natural-language clinical Q&A",
-      "Answers grounded in Elsevier evidence-based content with citations",
-      "Patient-context inputs"
+      "Answers grounded in Elsevier evidence-based content (about 1,000 journals) with citations",
+      "Patient context (Nov 16, 2026): can read the patient's full EHR record and check the treatment plan against Elsevier content, built on the Wellsheet acquisition (June 2026)",
+      "Chart summaries, e.g. a frequent ED patient's recent visits (San Juan Regional Medical Center example)"
     ],
     "ehr_integrations": [
-      "Institutional integration: Unknown"
+      "Elsevier says the patient-context version integrates with all EHR providers (specific EHR workflows not detailed)"
     ],
     "pricing": "Individual about $39/mo or $349/yr; residents about $19/mo or $199/yr (per third-party summary); free trial advertised (14 to 90 days depending on store page); institutional Not publicly stated",
-    "hipaa_baa": "Unknown",
+    "hipaa_baa": "Vendor describes the patient-context product as HIPAA-compliant ready; BAA terms Unknown",
     "fda_status": "None found",
     "ed_specific_vendor_claims": [],
     "studies": [],
     "sources": [
       "https://subscriptions.elsevier.com/clinicalkey-ai.html",
       "https://www.elsevier.support/clinicalkeyai/answer/how-can-i-start-a-clinicalkey-ai-trial",
-      "https://prescriber.io/blog/clinicalkey-subscription-cost"
+      "https://prescriber.io/blog/clinicalkey-subscription-cost",
+      "https://www.prnewswire.com/news-releases/elseviers-clinicalkey-ai-combines-world-leading-content-and-patient-specific-information-to-set-a-new-standard-in-clinical-decision-support-302940255.html",
+      "https://www.fiercehealthcare.com/health-tech/hlth-2026-elsevier-upgrades-clinicalkey-ai-full-patient-ehr-context"
     ],
-    "notes": "",
-    "last_verified": "2026-10-18",
+    "notes": "Elsevier says ClinicalKey AI is used at 1,200+ hospital sites and that its earlier co-development collaboration with OpenEvidence has ended (Fierce Healthcare, Nov 19, 2026). Individual pricing applies to the standalone tool; the EHR patient-context version is sold to health systems.",
+    "last_verified": "2026-11-23",
     "ed_criteria": {
       "interruptions": "Not yet evaluated",
       "multi_patient": "Not yet evaluated",
@@ -1083,16 +1091,22 @@
     "hipaa_baa": "Unknown",
     "fda_status": "FDA De Novo DEN170073 (2018, ContaCT/Viz LVO); 510(k)s incl. K223042 (LVO), K210209 (ICH), K220439 (SDH), K223443 (AAA), K221100 (RV/LV)",
     "ed_specific_vendor_claims": [],
-    "studies": [],
+    "studies": [
+      {
+        "title": "DUEL (AJNR, online Nov 19, 2026): single comprehensive stroke center, 1,523 consecutive code-stroke CTAs run through RapidAI and Viz.ai in parallel, June 2022 to June 2024 (147 ICA/M1 LVOs). LVO detected: RapidAI 98% vs Viz.ai 73%; correct negatives 94% vs 91%. Viz.ai processed 90% of cases vs >99% for RapidAI; among cases both processed, sensitivity 98% vs 78%. Retrospective; radiologists were not blinded to AI output",
+        "url": "https://www.ajnr.org/content/early/2026/11/19/ajnr.A9418"
+      }
+    ],
     "sources": [
       "https://www.fda.gov/news-events/press-announcements/fda-permits-marketing-clinical-decision-support-software-alerting-providers-potential-stroke",
       "https://www.accessdata.fda.gov/cdrh_docs/reviews/DEN170073.pdf",
       "https://www.viz.ai/indications-for-use",
       "https://www.fiercebiotech.com/medtech/viz-ai-upgrades-triage-platform-avicenna-ai-s-pulmonary-embolism-aortic-dissection",
-      "https://www.businesswire.com/news/home/20261116693879/en/Viz.ai-and-Wolters-Kluwer-Partner-to-Unite-Patient-Identification-Care-Coordination-and-UpToDate-Clinical-Evidence-on-a-Single-Platform"
+      "https://www.businesswire.com/news/home/20261116693879/en/Viz.ai-and-Wolters-Kluwer-Partner-to-Unite-Patient-Identification-Care-Coordination-and-UpToDate-Clinical-Evidence-on-a-Single-Platform",
+      "https://www.ajnr.org/content/early/2026/11/19/ajnr.A9418"
     ],
     "notes": "PE and aortic dissection detection on the Viz platform comes from Avicenna.AI's CINA CHEST. Viz.ai says it is used in 2,000 US hospitals with 50+ AI care pathways (Nov 2026 release).",
-    "last_verified": "2026-11-16",
+    "last_verified": "2026-11-23",
     "ed_criteria": {
       "interruptions": "Not yet evaluated",
       "multi_patient": "Not yet evaluated",
@@ -1130,16 +1144,22 @@
     "hipaa_baa": "Unknown",
     "fda_status": "FDA 510(k) clearances incl. K262301 (Rapid ICH v4.0, Oct 9, 2026, product code QAS), K221248 (2022) and K222884 (2023); Lumina 3D cleared Feb 2025",
     "ed_specific_vendor_claims": [],
-    "studies": [],
+    "studies": [
+      {
+        "title": "DUEL (AJNR, online Nov 19, 2026): single comprehensive stroke center, 1,523 consecutive code-stroke CTAs run through RapidAI and Viz.ai in parallel, June 2022 to June 2024 (147 ICA/M1 LVOs). LVO detected: RapidAI 98% vs Viz.ai 73%; correct negatives 94% vs 91%. Viz.ai processed 90% of cases vs >99% for RapidAI; among cases both processed, sensitivity 98% vs 78%. Retrospective; radiologists were not blinded to AI output",
+        "url": "https://www.ajnr.org/content/early/2026/11/19/ajnr.A9418"
+      }
+    ],
     "sources": [
       "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K262301",
       "https://www.accessdata.fda.gov/cdrh_docs/pdf22/K221248.pdf",
       "https://www.accessdata.fda.gov/cdrh_docs/pdf22/K222884.pdf",
       "https://www.rapidai.com/press-release/ncct-stroke",
-      "https://www.rapidai.com/press-release/rapidai-secures-fda-clearance-for-groundbreaking-ai-3d-head-and-neck-cta-imaging-lumina-3d"
+      "https://www.rapidai.com/press-release/rapidai-secures-fda-clearance-for-groundbreaking-ai-3d-head-and-neck-cta-imaging-lumina-3d",
+      "https://www.ajnr.org/content/early/2026/11/19/ajnr.A9418"
     ],
     "notes": "",
-    "last_verified": "2026-11-02",
+    "last_verified": "2026-11-23",
     "ed_criteria": {
       "interruptions": "Not yet evaluated",
       "multi_patient": "Not yet evaluated",
@@ -1301,23 +1321,31 @@
     "features": [
       "CINA CHEST: suspected PE on CTPA and aortic dissection on chest/thoraco-abdominal CTA",
       "CINA-iPE: incidental PE on non-dedicated contrast CT",
-      "Neurovascular triage for ICH and LVO"
+      "Neurovascular triage for ICH and LVO",
+      "CINA-Aneurysm (K262062, Oct 20, 2026): detects, marks and measures brain aneurysms over 3 mm on head CTA with a triage notification; CINA-Aneurysm+ (K262147, Oct 19, 2026) tracks known aneurysms over time"
     ],
     "ehr_integrations": [
       "PACS/worklist; available via partner platforms"
     ],
     "pricing": "Not publicly stated",
     "hipaa_baa": "Unknown",
-    "fda_status": "FDA 510(k) clearances incl. K210237 (May 2021) and K233968 (March 2024, CINA-iPE)",
+    "fda_status": "FDA 510(k) clearances incl. K210237 (May 2021), K233968 (March 2024, CINA-iPE), K262062 (CINA-Aneurysm, Oct 20, 2026) and K262147 (CINA-Aneurysm+, Oct 19, 2026)",
     "ed_specific_vendor_claims": [],
-    "studies": [],
+    "studies": [
+      {
+        "title": "CINA-Aneurysm 510(k) summary (via Innolitics review): standalone AUC 0.954, sens 94.4%, spec 91.7% on 423 cases; the 8-reader, 230-case reader study missed its primary endpoint (mean AUC 0.9375 to 0.9497, p=0.075), though reader sensitivity rose 4.0 points and reading time fell 9.9 s per case",
+        "url": "https://innolitics.com/articles/october-2026-ai-ml-fda-clearances/"
+      }
+    ],
     "sources": [
       "https://www.accessdata.fda.gov/cdrh_docs/pdf21/K210237.pdf",
       "https://www.accessdata.fda.gov/cdrh_docs/pdf23/K233968.pdf",
-      "https://avicenna.ai/solutions/emergency/"
+      "https://avicenna.ai/solutions/emergency/",
+      "https://www.accessdata.fda.gov/cdrh_docs/pdf26/K262062.pdf",
+      "https://innolitics.com/articles/october-2026-ai-ml-fda-clearances/"
     ],
-    "notes": "",
-    "last_verified": "2026-10-18",
+    "notes": "Bracco and Avicenna.AI announced the aneurysm product as Uptunity (Nov 13, 2026). Aneurysm detection is a detection and measurement aid more than an ED triage alert.",
+    "last_verified": "2026-11-23",
     "ed_criteria": {
       "interruptions": "Not yet evaluated",
       "multi_patient": "Not yet evaluated",
@@ -1729,7 +1757,7 @@
     ],
     "pricing": "Not publicly stated",
     "hipaa_baa": "Unknown",
-    "fda_status": "KATE Sepsis: FDA Breakthrough Device Designation (Nov 2023). Not authorized/cleared per sources found",
+    "fda_status": "KATE Sepsis: FDA Breakthrough Device Designation (Nov 14, 2023), which is not a clearance. No Mednition 510(k) or De Novo record found in FDA databases (checked Nov 23, 2026)",
     "ed_specific_vendor_claims": [
       "Built for ED triage nurses"
     ],
@@ -1744,7 +1772,7 @@
       "https://mednition.com/fda-grants-kate-ai-breakthrough-device-designation-for-early-sepsis-detection/"
     ],
     "notes": "",
-    "last_verified": "2026-10-18",
+    "last_verified": "2026-11-23",
     "ed_criteria": {
       "interruptions": "Not yet evaluated",
       "multi_patient": "Not yet evaluated",
@@ -1777,7 +1805,7 @@
     ],
     "pricing": "Not publicly stated",
     "hipaa_baa": "Unknown",
-    "fda_status": "Unknown",
+    "fda_status": "No FDA clearance, De Novo or Breakthrough designation found for Corti's emergency-call cardiac arrest detection (checked Nov 23, 2026); used as dispatcher decision support",
     "ed_specific_vendor_claims": [],
     "studies": [
       {
@@ -1794,7 +1822,7 @@
       "https://pubmed.ncbi.nlm.nih.gov/30664917/"
     ],
     "notes": "Relevant to EMS-facing EM physicians. Corti also sells other clinical AI products not reviewed here.",
-    "last_verified": "2026-10-18",
+    "last_verified": "2026-11-23",
     "ed_criteria": {
       "interruptions": "Not yet evaluated",
       "multi_patient": "Not yet evaluated",
@@ -1961,7 +1989,7 @@
     "features": [
       "Flags suspected positives on abdominopelvic CT, with or without IV contrast, in adults 22 and older",
       "Sept 2026 clearance covers 10 findings: obstructing ureteral stone, hydroureter, retroperitoneal hematoma, large-volume ascites, acute appendicitis, abscess, hemoperitoneum or complex free fluid, and splenic, hepatic and renal traumatic injury",
-      "Company says its suite now covers 17 abdominal findings across two FDA-cleared devices",
+      "Company says its suite now covers 26 findings across three FDA-cleared devices, including a2z-Omni-Triage (Nov 2026)",
       "Works alongside the radiologist's read; does not replace interpretation"
     ],
     "ehr_integrations": [
@@ -1975,10 +2003,11 @@
     "sources": [
       "https://www.accessdata.fda.gov/cdrh_docs/pdf26/K260906.pdf",
       "https://radiologybusiness.com/topics/artificial-intelligence/fda-clears-radiology-ai-triage-tool-check-10-additional-findings-ct-scans",
-      "https://a2zradiology.ai/"
+      "https://a2zradiology.ai/",
+      "https://www.businesswire.com/news/home/20261119132513/en/a2z-Radiology-AI-Expands-Acute-Care-Suite-with-Third-FDA-Cleared-Device"
     ],
     "notes": "Bought by health systems or radiology groups, not individual clinicians.",
-    "last_verified": "2026-10-19",
+    "last_verified": "2026-11-23",
     "ed_criteria": {
       "interruptions": "Not yet evaluated",
       "multi_patient": "Not yet evaluated",
@@ -2264,7 +2293,7 @@
       }
     ],
     "notes": "ARPI (called ALP in Korean coverage) says it plans to work with US institutions and partners on adoption; no US deployment or pricing announced as of Nov 2026.",
-    "last_verified": "2026-11-16",
+    "last_verified": "2026-11-23",
     "ed_criteria": {
       "interruptions": "Not yet evaluated",
       "multi_patient": "Not yet evaluated",
@@ -2291,7 +2320,7 @@
       "Analyzes 12-lead ECGs for findings associated with reduced LVEF (per vendor)",
       "Reference information to prompt follow-up testing such as echo; not a standalone diagnostic (per vendor)"
     ],
-    "fda_status": "FDA 510(k) K260436 (decision Nov 6, 2026), Class II, product code QYE (reduced ejection fraction ML-based notification software). FDA summary not reviewed yet.",
+    "fda_status": "FDA 510(k) K260436 (received Feb 11, 2026; decision Nov 6, 2026), Class II, product code QYE (reduced ejection fraction ML-based notification software). FDA summary still not posted as of Nov 23, 2026",
     "sources": [
       "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260436",
       "https://dbr.donga.com/kfocus/view/en/article_no/3930",
@@ -2394,6 +2423,150 @@
     ],
     "notes": "FDA labeling also warns that the recorder is not defibrillation-proof and is MR unsafe (remove before defibrillation or MRI). Delirium monitoring is cleared for adult critical-care settings, not specifically the ED. Existing stroke and ICH imaging tools (Viz.ai, RapidAI, Brainomix, etc.) were left in Imaging triage.",
     "last_verified": "2026-11-17",
+    "ed_criteria": {
+      "interruptions": "Not yet evaluated",
+      "multi_patient": "Not yet evaluated",
+      "noisy_environment": "Not yet evaluated",
+      "trauma_resus": "Not yet evaluated",
+      "ehr_fit": "Not yet evaluated",
+      "privacy_baa": "Not yet evaluated",
+      "pricing_value": "Not yet evaluated",
+      "evidence": "Not yet evaluated"
+    },
+    "physician_review": null,
+    "ratings": null,
+    "sponsored": false,
+    "affiliate_link": null,
+    "free_tier": false,
+    "fda_authorized": true
+  },
+  {
+    "slug": "keikku-reference",
+    "name": "Keikku Reference",
+    "company": "Lapsi Health (Keikku)",
+    "url": "https://keikku.health/pricing",
+    "category": "clinical-qa",
+    "tagline": "Cited clinical Q&A that now includes ACEP clinical policies, with a free tier and an optional ambient scribe that feeds patient context into answers.",
+    "features": [
+      "ACEP clinical policies integrated into Reference under a clinical and educational collaboration announced Nov 12, 2026 (no commercial terms; ACEP says it is not an endorsement)",
+      "Free plan: unlimited Reference with citations from PubMed, WHO and NIH, plus 10 Scribe sessions a month with copy-paste into any EHR (per vendor pricing page)",
+      "Clinician Pro ($89/mo billed annually): EHR integration, context-aware Reference Plus, more sources (NICE, CDC, FDA, local guidelines) and ICD-10/CPT/HCC coding (per vendor)",
+      "Reference can draw on the patient record (via EHR integration), prior sessions, the live Scribe transcript and incoming labs and imaging (per vendor)",
+      "Runs on the BODHI framework, meant to state uncertainty and ask for missing information rather than over-answer (per vendor)"
+    ],
+    "ehr_integrations": [
+      "Copy-paste on Free; EHR integration on Clinician Pro; native EHR integration, SSO and custom BAA on Enterprise (specific EHRs not named on the pricing page)"
+    ],
+    "pricing": "Free $0 (10 Scribe sessions/mo, unlimited Reference); Clinician Pro $89/mo billed annually (14-day trial, no card); Complete $120/mo billed annually with the Keikku device; Enterprise custom (per vendor pricing page, USD per user)",
+    "hipaa_baa": "Vendor shows a HIPAA badge; custom BAA listed under Enterprise. BAA on individual plans: Unknown",
+    "fda_status": "None found for Reference or Scribe software. The Keikku electronic stethoscope hardware is separately FDA 510(k) cleared (K233313)",
+    "ed_specific_vendor_claims": [
+      "Pitched for emergency and urgent care; ACEP clinical policies inside Reference (Nov 12, 2026)",
+      "CEO says Reference is free for every clinician"
+    ],
+    "studies": [],
+    "sources": [
+      "https://keikku.health/blog/keikku-acep-collaboration-emergency-medicine-guidelines",
+      "https://www.prnewswire.co.uk/news-releases/keikku-and-acep-sign-collaboration-agreement-to-bring-emergency-medicine-guidelines-into-contextual-clinical-decision-support-302938082.html",
+      "https://keikku.health/pricing",
+      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K233313"
+    ],
+    "notes": "The free plan's listed sources are PubMed, WHO and NIH; the pricing page doesn't say which plan includes the ACEP policies. Lapsi Health is based in Amsterdam with a Houston presence. No published accuracy data for Reference found.",
+    "last_verified": "2026-11-23",
+    "ed_criteria": {
+      "interruptions": "Not yet evaluated",
+      "multi_patient": "Not yet evaluated",
+      "noisy_environment": "Not yet evaluated",
+      "trauma_resus": "Not yet evaluated",
+      "ehr_fit": "Not yet evaluated",
+      "privacy_baa": "Not yet evaluated",
+      "pricing_value": "Not yet evaluated",
+      "evidence": "Not yet evaluated"
+    },
+    "physician_review": null,
+    "ratings": null,
+    "sponsored": false,
+    "affiliate_link": null,
+    "free_tier": true,
+    "fda_authorized": false
+  },
+  {
+    "slug": "a2z-omni-triage",
+    "name": "a2z-Omni-Triage",
+    "company": "a2z Radiology AI",
+    "url": "https://a2zradiology.ai/",
+    "category": "imaging-triage",
+    "tagline": "Abdomen-pelvis CT triage for findings outside the abdomen proper: pneumothorax, effusion, bowel perforation, pelvic and sacral fractures, large AAA and abscess.",
+    "features": [
+      "Flags 9 suspected findings: moderate or large layering pleural effusion, pneumothorax, complex pleural collection, bowel perforation, moderate or severe hydronephrosis, aortic aneurysm 5 cm or larger, non-sacral pelvic fracture, sacral or coccygeal fracture, soft tissue abscess",
+      "Abdominopelvic CT with or without IV contrast, adults 22 and older; chest findings only when that anatomy is in the images",
+      "Works in parallel with the standard read; notified clinicians must still review the full images",
+      "Third a2z device; company says its three devices cover 26 findings (each cleared with its own definitions and testing)"
+    ],
+    "ehr_integrations": [
+      "PACS / radiology worklist; EHR specifics Unknown"
+    ],
+    "pricing": "Not publicly stated",
+    "hipaa_baa": "Unknown",
+    "fda_status": "FDA 510(k) K262765 (decision Nov 12, 2026), Class II, regulation 892.2080, product codes QAS/QFM, with a Predetermined Change Control Plan. FDA summary not posted yet",
+    "ed_specific_vendor_claims": [],
+    "studies": [],
+    "sources": [
+      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K262765",
+      "https://www.businesswire.com/news/home/20261119132513/en/a2z-Radiology-AI-Expands-Acute-Care-Suite-with-Third-FDA-Cleared-Device",
+      "https://www.diagnosticimaging.com/view/fda-emerging-ai-triage-software-nine-findings-abdominopelvic-ct"
+    ],
+    "notes": "Announced Nov 19, 2026. No performance numbers public until FDA posts the summary. Bought by health systems or radiology groups, not individual clinicians.",
+    "last_verified": "2026-11-23",
+    "ed_criteria": {
+      "interruptions": "Not yet evaluated",
+      "multi_patient": "Not yet evaluated",
+      "noisy_environment": "Not yet evaluated",
+      "trauma_resus": "Not yet evaluated",
+      "ehr_fit": "Not yet evaluated",
+      "privacy_baa": "Not yet evaluated",
+      "pricing_value": "Not yet evaluated",
+      "evidence": "Not yet evaluated"
+    },
+    "physician_review": null,
+    "ratings": null,
+    "sponsored": false,
+    "affiliate_link": null,
+    "free_tier": false,
+    "fda_authorized": true
+  },
+  {
+    "slug": "efai-appendicitis",
+    "name": "EFAI ERSUITE CT Appendicitis",
+    "company": "Ever Fortune.AI (EFAI)",
+    "url": "https://www.everfortuneai.com.tw/",
+    "category": "imaging-triage",
+    "tagline": "Single-finding CT triage that flags suspected appendicitis on contrast-enhanced abdominal CT for earlier review.",
+    "features": [
+      "Analyzes contrast-enhanced abdominal CT and sends a passive, text-based notification to PACS/RIS for suspected appendicitis (per FDA summary)",
+      "Does not mark images or point to a location; does not remove or reorder cases in the standard queue",
+      "Adults only; not a diagnostic device"
+    ],
+    "ehr_integrations": [
+      "PACS / RIS worklist; EHR specifics Unknown"
+    ],
+    "pricing": "Not publicly stated",
+    "hipaa_baa": "Unknown",
+    "fda_status": "FDA 510(k) K253163 (decision Apr 22, 2026), Class II, regulation 892.2080, product code QAS; predicate Aidoc BriefCase (K193298). Taiwan TFDA clearance Aug 2026",
+    "ed_specific_vendor_claims": [],
+    "studies": [
+      {
+        "title": "FDA 510(k) summary: retrospective blinded multisite study of 300 consecutive US contrast-enhanced abdominal CTs (139 appendicitis by 3-radiologist majority). Sensitivity 0.928 (95% CI 0.873-0.960), specificity 0.932 (0.882-0.961); mean processing time 3.37 min per case",
+        "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf25/K253163.pdf"
+      }
+    ],
+    "sources": [
+      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K253163",
+      "https://www.accessdata.fda.gov/cdrh_docs/pdf25/K253163.pdf",
+      "https://www.taiwan-healthcare.org/en/news-detail?id=0tjzshlob5dd53c4"
+    ],
+    "notes": "Taiwan-based vendor with 15 US FDA clearances (company figure, Aug 2026). No named US hospital deployments found. A 3.4-minute processing time matters for an appendicitis worklist, less so for a time-critical finding. Bought by health systems, not individual clinicians.",
+    "last_verified": "2026-11-23",
     "ed_criteria": {
       "interruptions": "Not yet evaluated",
       "multi_patient": "Not yet evaluated",
